@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/Dropbox/Repository/Code Resources/Node/TADAPP/.idea/TADAPP.iml" filepath="$USER_HOME$/Dropbox/Repository/Code Resources/Node/TADAPP/.idea/TADAPP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TADAPP.iml" filepath="$PROJECT_DIR$/.idea/TADAPP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Node/TADAPP/.idea/TADAPP.iml" filepath="$PROJECT_DIR$/../../Node/TADAPP/.idea/TADAPP.iml" />
     </modules>
   </component>
 </project>
