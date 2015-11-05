@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="109e5398-2ed7-48d1-b048-60a94939338a" name="Default" comment="">
       <change type="DELETED" beforePath="$USER_HOME$/README.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="PlayApp.iws" />
     <ignored path=".idea/workspace.xml" />
