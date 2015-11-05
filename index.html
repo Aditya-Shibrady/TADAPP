@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="playApp">
+<head>
+    <title>TADAPP !</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body link="black">
+
+<img src="http://www.sabre.com/insights/wp/wp-content/uploads/Sabre-Logo-reg-RGB.jpg" align="right" height="32" width="90">
+<br><br><br><br><br>
+<div style="text-align:center; font-family: Helvetica; color: #e50000;"><h1>Welcome to TADAPP !</h1><br></div>
+<div style="text-align:center;"><a href="http://localhost:3001/" STYLE="text-decoration:none" STYLE="color:black" ><img src="https://developer.sabre.com/public/Mashery/images/clients/sabre/about-Sabre.png" height="310" width="680"></a></div>
+<br><br>
+<div style="text-align:center;">
+    <button id="myButton" class="float-left submit-button" >CDH Data</button>
+
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "http://localhost:3000/prof";
+        };
+    </script>
+    &nbsp
+    &nbsp
+    <button><a href="#search" STYLE="text-decoration:none" STYLE="color:black" >Search</a></button>
+    &nbsp
+    &nbsp
+    <button id="myButt" class="submit" >Twitter Data</button>
+
+    <script type="text/javascript">
+    document.getElementById("myButt").onclick = function () {
+        location.href = "http://localhost:3000/twitter";
+    };
+    </script>
+    &nbsp
+    &nbsp
+    <button id="myStats" class="submit-stats" >Statistics</button>
+
+    <script type="text/javascript">
+        document.getElementById("myStats").onclick = function () {
+            location.href = "http://aditya-shibrady.github.io/BootStrap-Admin-Template/pages/index.html";
+        };
+    </script>
+    </div>
+<div>
+    <ng-view>
+
+    </ng-view>
+</div>
+<br>
+<center>
+<button id="loady" class="suggest-button" >Recommendations</button>
+<script type="text/javascript">
+    document.getElementById("loady").onclick = function () {
+        location.href = "http://localhost:3001/dest";
+    };
+</script>
+</center>
+<br>
+<br>
+<!-- lib js files -->
+<script src="lib/angular.js"></script>
+<script src="lib/angular-route.js"></script>
+<!-- app js files -->
+<script src="app/app.js"></script>
+<script src="app/searchController.js"></script>
+<script src="app/homeController.js"></script>
+</body>
+</html>

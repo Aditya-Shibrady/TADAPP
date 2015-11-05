@@ -1,0 +1,26 @@
+{
+  "Airports": [
+    {
+      "code": "EWR",
+      "name": "NEWARK"
+    },
+    {
+      "code": "JFK",
+      "name": "NEW YORK JFK"
+    },
+    {
+      "code": "LGA",
+      "name": "NEW YORK LGA"
+    }
+  ],
+  "Links": [
+    {
+      "rel": "self",
+      "href": "https://api.test.sabre.com/v1/lists/airports?country=US&city=NYC"
+    },
+    {
+      "rel": "linkTemplate",
+      "href": "https://api.test.sabre.com/v1/lists/airports?city=<city>"
+    }
+  ]
+}

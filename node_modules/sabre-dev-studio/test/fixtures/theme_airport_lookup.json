@@ -1,0 +1,77 @@
+{
+  "Destinations": [
+    {
+      "Destination": "BUR",
+      "Links": [
+        {
+          "rel": "shopTemplate",
+          "href": "https://api.test.sabre.com/v1/shop/themes/DISNEY/flights/fares?origin=<origin>&departuredate=<departuredate>&returndate=<returndate>&location=<location>&minfare=<minfare>&maxfare=<maxfare>"
+        }
+      ]
+    },
+    {
+      "Destination": "LAX",
+      "Links": [
+        {
+          "rel": "shopTemplate",
+          "href": "https://api.test.sabre.com/v1/shop/themes/DISNEY/flights/fares?origin=<origin>&departuredate=<departuredate>&returndate=<returndate>&location=<location>&minfare=<minfare>&maxfare=<maxfare>"
+        }
+      ]
+    },
+    {
+      "Destination": "LGB",
+      "Links": [
+        {
+          "rel": "shopTemplate",
+          "href": "https://api.test.sabre.com/v1/shop/themes/DISNEY/flights/fares?origin=<origin>&departuredate=<departuredate>&returndate=<returndate>&location=<location>&minfare=<minfare>&maxfare=<maxfare>"
+        }
+      ]
+    },
+    {
+      "Destination": "MCO",
+      "Links": [
+        {
+          "rel": "shopTemplate",
+          "href": "https://api.test.sabre.com/v1/shop/themes/DISNEY/flights/fares?origin=<origin>&departuredate=<departuredate>&returndate=<returndate>&location=<location>&minfare=<minfare>&maxfare=<maxfare>"
+        }
+      ]
+    },
+    {
+      "Destination": "ONT",
+      "Links": [
+        {
+          "rel": "shopTemplate",
+          "href": "https://api.test.sabre.com/v1/shop/themes/DISNEY/flights/fares?origin=<origin>&departuredate=<departuredate>&returndate=<returndate>&location=<location>&minfare=<minfare>&maxfare=<maxfare>"
+        }
+      ]
+    },
+    {
+      "Destination": "SNA",
+      "Links": [
+        {
+          "rel": "shopTemplate",
+          "href": "https://api.test.sabre.com/v1/shop/themes/DISNEY/flights/fares?origin=<origin>&departuredate=<departuredate>&returndate=<returndate>&location=<location>&minfare=<minfare>&maxfare=<maxfare>"
+        }
+      ]
+    },
+    {
+      "Destination": "TPA",
+      "Links": [
+        {
+          "rel": "shopTemplate",
+          "href": "https://api.test.sabre.com/v1/shop/themes/DISNEY/flights/fares?origin=<origin>&departuredate=<departuredate>&returndate=<returndate>&location=<location>&minfare=<minfare>&maxfare=<maxfare>"
+        }
+      ]
+    }
+  ],
+  "Links": [
+    {
+      "rel": "self",
+      "href": "https://api.test.sabre.com/v1/shop/themes/DISNEY"
+    },
+    {
+      "rel": "linkTemplate",
+      "href": "https://api.test.sabre.com/v1/shop/themes/<theme>"
+    }
+  ]
+}

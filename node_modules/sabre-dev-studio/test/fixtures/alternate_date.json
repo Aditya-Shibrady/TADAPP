@@ -1,0 +1,3363 @@
+{
+  "OTA_AirLowFareSearchRS" :
+  {
+    "Success" :
+    {
+    },
+    "Warnings" :
+    {
+      "Warning" :
+      [
+        {
+          "Type" : "IS",
+          "ShortText" : "EMPTY ALTERNATE DATES PAIRS MAP ",
+          "Code" : "PROCESS"
+        },
+        {
+          "Type" : "GENERAL",
+          "ShortText" : "2015-04-10/2015-04-11|2015-04-10/2015-04-12|2015-04-10/2015-04-13|2015-04-11/2015-04-11|2015-04-11/2015-04-13|2015-04-12/2015-04-12|2015-04-12/2015-04-13",
+          "Code" : "CUTOFFDATES"
+        },
+        {
+          "Type" : "GENERAL",
+          "ShortText" : "234.7",
+          "Code" : "CUTOFFAMOUNT"
+        },
+        {
+          "Type" : "WORKERTHREAD",
+          "ShortText" : "5025614402444033203",
+          "Code" : "TRANSACTIONID",
+          "MessageClass" : "I"
+        },
+        {
+          "Type" : "SERVER",
+          "ShortText" : "27037",
+          "Code" : "PIFHLC108",
+          "MessageClass" : "I"
+        },
+        {
+          "Type" : "DEFAULT",
+          "ShortText" : "13332",
+          "Code" : "RULEID",
+          "MessageClass" : "I"
+        },
+        {
+          "Type" : "DRE",
+          "ShortText" : "13300",
+          "Code" : "RULEID",
+          "MessageClass" : "I"
+        },
+        {
+          "Type" : "IS",
+          "ShortText" : "EMPTY ALTERNATE DATES PAIRS MAP ",
+          "Code" : "IS",
+          "MessageClass" : "I"
+        }
+      ]
+    },
+    "PricedItineraries" :
+    {
+      "PricedItinerary" :
+      [
+        {
+          "AirItinerary" :
+          {
+            "OriginDestinationOptions" :
+            {
+              "OriginDestinationOption" :
+              [
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "867"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "8"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-10T07:04:00",
+                      "ArrivalDateTime" : "2015-04-10T08:26:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "867",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 202
+                    }
+                  ],
+                  "ElapsedTime" : 202
+                },
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "868"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "5"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-11T19:10:00",
+                      "ArrivalDateTime" : "2015-04-11T23:54:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "868",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 164
+                    }
+                  ],
+                  "ElapsedTime" : 164
+                }
+              ]
+            },
+            "DirectionInd" : "Return"
+          },
+          "AirItineraryPricingInfo" :
+          [
+            {
+              "ItinTotalFare" :
+              {
+                "BaseFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "FareConstruction" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "EquivFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "Taxes" :
+                {
+                  "Tax" :
+                  [
+                    {
+                      "TaxCode" : "TOTALTAX",
+                      "Amount" : 39.24,
+                      "CurrencyCode" : "USD",
+                      "DecimalPlaces" : 2
+                    }
+                  ]
+                },
+                "TotalFare" :
+                {
+                  "Amount" : 186.20,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                }
+              },
+              "PTC_FareBreakdowns" :
+              {
+                "PTC_FareBreakdown" :
+                [
+                  {
+                    "PassengerTypeQuantity" :
+                    {
+                      "Code" : "ADT",
+                      "Quantity" : 1
+                    },
+                    "FareBasisCodes" :
+                    {
+                      "FareBasisCode" :
+                      [
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "DFW",
+                          "ArrivalAirportCode" : "LAX"
+                        },
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "LAX",
+                          "ArrivalAirportCode" : "DFW"
+                        }
+                      ]
+                    },
+                    "PassengerFare" :
+                    {
+                      "BaseFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD"
+                      },
+                      "FareConstruction" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "EquivFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "Taxes" :
+                      {
+                        "Tax" :
+                        [
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          }
+                        ],
+                        "TotalTax" :
+                        {
+                          "Amount" : 39.24,
+                          "CurrencyCode" : "USD",
+                          "DecimalPlaces" : 2
+                        }
+                      },
+                      "TotalFare" :
+                      {
+                        "Amount" : 186.20,
+                        "CurrencyCode" : "USD"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "Surcharges" :
+                        [
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          }
+                        ],
+                        "Messages" :
+                        {
+                          "Message" :
+                          [
+                            {
+                              "AirlineCode" : "NK",
+                              "Type" : "N",
+                              "FailCode" : 0,
+                              "Info" : "NONREF/NONTRANS/VALID NK"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "NK HAS NO TICKETING AGREEMENT-CHANGE VALIDATING CARRIER"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "VALIDATING CARRIER - NK"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "Endorsements" :
+                    {
+                      "NonRefundableIndicator" : true
+                    },
+                    "TPA_Extensions" :
+                    {
+                      "FareCalcLine" :
+                      {
+                        "Info" : "DFW NK LAX Q18.60Q4.65 50.23NK DFW Q18.60Q4.65 50.23USD146.96END ZPDFWLAX XFDFW4.5LAX4.5"
+                      }
+                    }
+                  }
+                ]
+              },
+              "FareInfos" :
+              {
+                "FareInfo" :
+                [
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  }
+                ]
+              },
+              "TPA_Extensions" :
+              {
+                "DivideInParty" :
+                {
+                  "Indicator" : false
+                }
+              },
+              "LastTicketDate" : "2015-03-24",
+              "PricingSource" : "ADI1",
+              "PricingSubSource" : "MIP"
+            }
+          ],
+          "TicketingInfo" :
+          {
+            "TicketType" : "eTicket",
+            "ValidInterline" : "Yes"
+          },
+          "TPA_Extensions" :
+          {
+            "ValidatingCarrier" :
+            {
+              "Code" : "NK"
+            }
+          },
+          "SequenceNumber" : 1
+        },
+        {
+          "AirItinerary" :
+          {
+            "OriginDestinationOptions" :
+            {
+              "OriginDestinationOption" :
+              [
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "867"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "8"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-10T07:04:00",
+                      "ArrivalDateTime" : "2015-04-10T08:26:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "867",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 202
+                    }
+                  ],
+                  "ElapsedTime" : 202
+                },
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "868"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "5"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-12T19:10:00",
+                      "ArrivalDateTime" : "2015-04-12T23:54:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "868",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 164
+                    }
+                  ],
+                  "ElapsedTime" : 164
+                }
+              ]
+            },
+            "DirectionInd" : "Return"
+          },
+          "AirItineraryPricingInfo" :
+          [
+            {
+              "ItinTotalFare" :
+              {
+                "BaseFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "FareConstruction" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "EquivFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "Taxes" :
+                {
+                  "Tax" :
+                  [
+                    {
+                      "TaxCode" : "TOTALTAX",
+                      "Amount" : 39.24,
+                      "CurrencyCode" : "USD",
+                      "DecimalPlaces" : 2
+                    }
+                  ]
+                },
+                "TotalFare" :
+                {
+                  "Amount" : 186.20,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                }
+              },
+              "PTC_FareBreakdowns" :
+              {
+                "PTC_FareBreakdown" :
+                [
+                  {
+                    "PassengerTypeQuantity" :
+                    {
+                      "Code" : "ADT",
+                      "Quantity" : 1
+                    },
+                    "FareBasisCodes" :
+                    {
+                      "FareBasisCode" :
+                      [
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "DFW",
+                          "ArrivalAirportCode" : "LAX"
+                        },
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "LAX",
+                          "ArrivalAirportCode" : "DFW"
+                        }
+                      ]
+                    },
+                    "PassengerFare" :
+                    {
+                      "BaseFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD"
+                      },
+                      "FareConstruction" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "EquivFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "Taxes" :
+                      {
+                        "Tax" :
+                        [
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          }
+                        ],
+                        "TotalTax" :
+                        {
+                          "Amount" : 39.24,
+                          "CurrencyCode" : "USD",
+                          "DecimalPlaces" : 2
+                        }
+                      },
+                      "TotalFare" :
+                      {
+                        "Amount" : 186.20,
+                        "CurrencyCode" : "USD"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "Surcharges" :
+                        [
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          }
+                        ],
+                        "Messages" :
+                        {
+                          "Message" :
+                          [
+                            {
+                              "AirlineCode" : "NK",
+                              "Type" : "N",
+                              "FailCode" : 0,
+                              "Info" : "NONREF/NONTRANS/VALID NK"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "NK HAS NO TICKETING AGREEMENT-CHANGE VALIDATING CARRIER"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "VALIDATING CARRIER - NK"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "Endorsements" :
+                    {
+                      "NonRefundableIndicator" : true
+                    },
+                    "TPA_Extensions" :
+                    {
+                      "FareCalcLine" :
+                      {
+                        "Info" : "DFW NK LAX Q18.60Q4.65 50.23NK DFW Q18.60Q4.65 50.23USD146.96END ZPDFWLAX XFDFW4.5LAX4.5"
+                      }
+                    }
+                  }
+                ]
+              },
+              "FareInfos" :
+              {
+                "FareInfo" :
+                [
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  }
+                ]
+              },
+              "TPA_Extensions" :
+              {
+                "DivideInParty" :
+                {
+                  "Indicator" : false
+                }
+              },
+              "LastTicketDate" : "2015-03-24",
+              "PricingSource" : "ADI1",
+              "PricingSubSource" : "MIP"
+            }
+          ],
+          "TicketingInfo" :
+          {
+            "TicketType" : "eTicket",
+            "ValidInterline" : "Yes"
+          },
+          "TPA_Extensions" :
+          {
+            "ValidatingCarrier" :
+            {
+              "Code" : "NK"
+            }
+          },
+          "SequenceNumber" : 2
+        },
+        {
+          "AirItinerary" :
+          {
+            "OriginDestinationOptions" :
+            {
+              "OriginDestinationOption" :
+              [
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "867"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "8"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-10T07:04:00",
+                      "ArrivalDateTime" : "2015-04-10T08:26:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "867",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 202
+                    }
+                  ],
+                  "ElapsedTime" : 202
+                },
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "868"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "5"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-13T19:10:00",
+                      "ArrivalDateTime" : "2015-04-13T23:54:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "868",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 164
+                    }
+                  ],
+                  "ElapsedTime" : 164
+                }
+              ]
+            },
+            "DirectionInd" : "Return"
+          },
+          "AirItineraryPricingInfo" :
+          [
+            {
+              "ItinTotalFare" :
+              {
+                "BaseFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "FareConstruction" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "EquivFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "Taxes" :
+                {
+                  "Tax" :
+                  [
+                    {
+                      "TaxCode" : "TOTALTAX",
+                      "Amount" : 39.24,
+                      "CurrencyCode" : "USD",
+                      "DecimalPlaces" : 2
+                    }
+                  ]
+                },
+                "TotalFare" :
+                {
+                  "Amount" : 186.20,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                }
+              },
+              "PTC_FareBreakdowns" :
+              {
+                "PTC_FareBreakdown" :
+                [
+                  {
+                    "PassengerTypeQuantity" :
+                    {
+                      "Code" : "ADT",
+                      "Quantity" : 1
+                    },
+                    "FareBasisCodes" :
+                    {
+                      "FareBasisCode" :
+                      [
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "DFW",
+                          "ArrivalAirportCode" : "LAX"
+                        },
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "LAX",
+                          "ArrivalAirportCode" : "DFW"
+                        }
+                      ]
+                    },
+                    "PassengerFare" :
+                    {
+                      "BaseFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD"
+                      },
+                      "FareConstruction" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "EquivFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "Taxes" :
+                      {
+                        "Tax" :
+                        [
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          }
+                        ],
+                        "TotalTax" :
+                        {
+                          "Amount" : 39.24,
+                          "CurrencyCode" : "USD",
+                          "DecimalPlaces" : 2
+                        }
+                      },
+                      "TotalFare" :
+                      {
+                        "Amount" : 186.20,
+                        "CurrencyCode" : "USD"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "Surcharges" :
+                        [
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          }
+                        ],
+                        "Messages" :
+                        {
+                          "Message" :
+                          [
+                            {
+                              "AirlineCode" : "NK",
+                              "Type" : "N",
+                              "FailCode" : 0,
+                              "Info" : "NONREF/NONTRANS/VALID NK"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "NK HAS NO TICKETING AGREEMENT-CHANGE VALIDATING CARRIER"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "VALIDATING CARRIER - NK"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "Endorsements" :
+                    {
+                      "NonRefundableIndicator" : true
+                    },
+                    "TPA_Extensions" :
+                    {
+                      "FareCalcLine" :
+                      {
+                        "Info" : "DFW NK LAX Q18.60Q4.65 50.23NK DFW Q18.60Q4.65 50.23USD146.96END ZPDFWLAX XFDFW4.5LAX4.5"
+                      }
+                    }
+                  }
+                ]
+              },
+              "FareInfos" :
+              {
+                "FareInfo" :
+                [
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  }
+                ]
+              },
+              "TPA_Extensions" :
+              {
+                "DivideInParty" :
+                {
+                  "Indicator" : false
+                }
+              },
+              "LastTicketDate" : "2015-03-24",
+              "PricingSource" : "ADI1",
+              "PricingSubSource" : "MIP"
+            }
+          ],
+          "TicketingInfo" :
+          {
+            "TicketType" : "eTicket",
+            "ValidInterline" : "Yes"
+          },
+          "TPA_Extensions" :
+          {
+            "ValidatingCarrier" :
+            {
+              "Code" : "NK"
+            }
+          },
+          "SequenceNumber" : 3
+        },
+        {
+          "AirItinerary" :
+          {
+            "OriginDestinationOptions" :
+            {
+              "OriginDestinationOption" :
+              [
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "867"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "8"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-11T07:04:00",
+                      "ArrivalDateTime" : "2015-04-11T08:26:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "867",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 202
+                    }
+                  ],
+                  "ElapsedTime" : 202
+                },
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "868"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "5"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-11T19:10:00",
+                      "ArrivalDateTime" : "2015-04-11T23:54:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "868",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 164
+                    }
+                  ],
+                  "ElapsedTime" : 164
+                }
+              ]
+            },
+            "DirectionInd" : "Return"
+          },
+          "AirItineraryPricingInfo" :
+          [
+            {
+              "ItinTotalFare" :
+              {
+                "BaseFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "FareConstruction" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "EquivFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "Taxes" :
+                {
+                  "Tax" :
+                  [
+                    {
+                      "TaxCode" : "TOTALTAX",
+                      "Amount" : 39.24,
+                      "CurrencyCode" : "USD",
+                      "DecimalPlaces" : 2
+                    }
+                  ]
+                },
+                "TotalFare" :
+                {
+                  "Amount" : 186.20,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                }
+              },
+              "PTC_FareBreakdowns" :
+              {
+                "PTC_FareBreakdown" :
+                [
+                  {
+                    "PassengerTypeQuantity" :
+                    {
+                      "Code" : "ADT",
+                      "Quantity" : 1
+                    },
+                    "FareBasisCodes" :
+                    {
+                      "FareBasisCode" :
+                      [
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "DFW",
+                          "ArrivalAirportCode" : "LAX"
+                        },
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "LAX",
+                          "ArrivalAirportCode" : "DFW"
+                        }
+                      ]
+                    },
+                    "PassengerFare" :
+                    {
+                      "BaseFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD"
+                      },
+                      "FareConstruction" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "EquivFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "Taxes" :
+                      {
+                        "Tax" :
+                        [
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          }
+                        ],
+                        "TotalTax" :
+                        {
+                          "Amount" : 39.24,
+                          "CurrencyCode" : "USD",
+                          "DecimalPlaces" : 2
+                        }
+                      },
+                      "TotalFare" :
+                      {
+                        "Amount" : 186.20,
+                        "CurrencyCode" : "USD"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "Surcharges" :
+                        [
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          }
+                        ],
+                        "Messages" :
+                        {
+                          "Message" :
+                          [
+                            {
+                              "AirlineCode" : "NK",
+                              "Type" : "N",
+                              "FailCode" : 0,
+                              "Info" : "NONREF/NONTRANS/VALID NK"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "NK HAS NO TICKETING AGREEMENT-CHANGE VALIDATING CARRIER"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "VALIDATING CARRIER - NK"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "Endorsements" :
+                    {
+                      "NonRefundableIndicator" : true
+                    },
+                    "TPA_Extensions" :
+                    {
+                      "FareCalcLine" :
+                      {
+                        "Info" : "DFW NK LAX Q18.60Q4.65 50.23NK DFW Q18.60Q4.65 50.23USD146.96END ZPDFWLAX XFDFW4.5LAX4.5"
+                      }
+                    }
+                  }
+                ]
+              },
+              "FareInfos" :
+              {
+                "FareInfo" :
+                [
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  }
+                ]
+              },
+              "TPA_Extensions" :
+              {
+                "DivideInParty" :
+                {
+                  "Indicator" : false
+                }
+              },
+              "LastTicketDate" : "2015-03-24",
+              "PricingSource" : "ADI1",
+              "PricingSubSource" : "MIP"
+            }
+          ],
+          "TicketingInfo" :
+          {
+            "TicketType" : "eTicket",
+            "ValidInterline" : "Yes"
+          },
+          "TPA_Extensions" :
+          {
+            "ValidatingCarrier" :
+            {
+              "Code" : "NK"
+            }
+          },
+          "SequenceNumber" : 4
+        },
+        {
+          "AirItinerary" :
+          {
+            "OriginDestinationOptions" :
+            {
+              "OriginDestinationOption" :
+              [
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "867"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "8"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-11T07:04:00",
+                      "ArrivalDateTime" : "2015-04-11T08:26:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "867",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 202
+                    }
+                  ],
+                  "ElapsedTime" : 202
+                },
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "868"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "5"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-13T19:10:00",
+                      "ArrivalDateTime" : "2015-04-13T23:54:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "868",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 164
+                    }
+                  ],
+                  "ElapsedTime" : 164
+                }
+              ]
+            },
+            "DirectionInd" : "Return"
+          },
+          "AirItineraryPricingInfo" :
+          [
+            {
+              "ItinTotalFare" :
+              {
+                "BaseFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "FareConstruction" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "EquivFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "Taxes" :
+                {
+                  "Tax" :
+                  [
+                    {
+                      "TaxCode" : "TOTALTAX",
+                      "Amount" : 39.24,
+                      "CurrencyCode" : "USD",
+                      "DecimalPlaces" : 2
+                    }
+                  ]
+                },
+                "TotalFare" :
+                {
+                  "Amount" : 186.20,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                }
+              },
+              "PTC_FareBreakdowns" :
+              {
+                "PTC_FareBreakdown" :
+                [
+                  {
+                    "PassengerTypeQuantity" :
+                    {
+                      "Code" : "ADT",
+                      "Quantity" : 1
+                    },
+                    "FareBasisCodes" :
+                    {
+                      "FareBasisCode" :
+                      [
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "DFW",
+                          "ArrivalAirportCode" : "LAX"
+                        },
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "LAX",
+                          "ArrivalAirportCode" : "DFW"
+                        }
+                      ]
+                    },
+                    "PassengerFare" :
+                    {
+                      "BaseFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD"
+                      },
+                      "FareConstruction" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "EquivFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "Taxes" :
+                      {
+                        "Tax" :
+                        [
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          }
+                        ],
+                        "TotalTax" :
+                        {
+                          "Amount" : 39.24,
+                          "CurrencyCode" : "USD",
+                          "DecimalPlaces" : 2
+                        }
+                      },
+                      "TotalFare" :
+                      {
+                        "Amount" : 186.20,
+                        "CurrencyCode" : "USD"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "Surcharges" :
+                        [
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          }
+                        ],
+                        "Messages" :
+                        {
+                          "Message" :
+                          [
+                            {
+                              "AirlineCode" : "NK",
+                              "Type" : "N",
+                              "FailCode" : 0,
+                              "Info" : "NONREF/NONTRANS/VALID NK"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "NK HAS NO TICKETING AGREEMENT-CHANGE VALIDATING CARRIER"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "VALIDATING CARRIER - NK"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "Endorsements" :
+                    {
+                      "NonRefundableIndicator" : true
+                    },
+                    "TPA_Extensions" :
+                    {
+                      "FareCalcLine" :
+                      {
+                        "Info" : "DFW NK LAX Q18.60Q4.65 50.23NK DFW Q18.60Q4.65 50.23USD146.96END ZPDFWLAX XFDFW4.5LAX4.5"
+                      }
+                    }
+                  }
+                ]
+              },
+              "FareInfos" :
+              {
+                "FareInfo" :
+                [
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  }
+                ]
+              },
+              "TPA_Extensions" :
+              {
+                "DivideInParty" :
+                {
+                  "Indicator" : false
+                }
+              },
+              "LastTicketDate" : "2015-03-24",
+              "PricingSource" : "ADI1",
+              "PricingSubSource" : "MIP"
+            }
+          ],
+          "TicketingInfo" :
+          {
+            "TicketType" : "eTicket",
+            "ValidInterline" : "Yes"
+          },
+          "TPA_Extensions" :
+          {
+            "ValidatingCarrier" :
+            {
+              "Code" : "NK"
+            }
+          },
+          "SequenceNumber" : 5
+        },
+        {
+          "AirItinerary" :
+          {
+            "OriginDestinationOptions" :
+            {
+              "OriginDestinationOption" :
+              [
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "867"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "8"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-12T07:04:00",
+                      "ArrivalDateTime" : "2015-04-12T08:26:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "867",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 202
+                    }
+                  ],
+                  "ElapsedTime" : 202
+                },
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "868"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "5"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-12T19:10:00",
+                      "ArrivalDateTime" : "2015-04-12T23:54:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "868",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 164
+                    }
+                  ],
+                  "ElapsedTime" : 164
+                }
+              ]
+            },
+            "DirectionInd" : "Return"
+          },
+          "AirItineraryPricingInfo" :
+          [
+            {
+              "ItinTotalFare" :
+              {
+                "BaseFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "FareConstruction" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "EquivFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "Taxes" :
+                {
+                  "Tax" :
+                  [
+                    {
+                      "TaxCode" : "TOTALTAX",
+                      "Amount" : 39.24,
+                      "CurrencyCode" : "USD",
+                      "DecimalPlaces" : 2
+                    }
+                  ]
+                },
+                "TotalFare" :
+                {
+                  "Amount" : 186.20,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                }
+              },
+              "PTC_FareBreakdowns" :
+              {
+                "PTC_FareBreakdown" :
+                [
+                  {
+                    "PassengerTypeQuantity" :
+                    {
+                      "Code" : "ADT",
+                      "Quantity" : 1
+                    },
+                    "FareBasisCodes" :
+                    {
+                      "FareBasisCode" :
+                      [
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "DFW",
+                          "ArrivalAirportCode" : "LAX"
+                        },
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "LAX",
+                          "ArrivalAirportCode" : "DFW"
+                        }
+                      ]
+                    },
+                    "PassengerFare" :
+                    {
+                      "BaseFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD"
+                      },
+                      "FareConstruction" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "EquivFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "Taxes" :
+                      {
+                        "Tax" :
+                        [
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          }
+                        ],
+                        "TotalTax" :
+                        {
+                          "Amount" : 39.24,
+                          "CurrencyCode" : "USD",
+                          "DecimalPlaces" : 2
+                        }
+                      },
+                      "TotalFare" :
+                      {
+                        "Amount" : 186.20,
+                        "CurrencyCode" : "USD"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "Surcharges" :
+                        [
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          }
+                        ],
+                        "Messages" :
+                        {
+                          "Message" :
+                          [
+                            {
+                              "AirlineCode" : "NK",
+                              "Type" : "N",
+                              "FailCode" : 0,
+                              "Info" : "NONREF/NONTRANS/VALID NK"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "NK HAS NO TICKETING AGREEMENT-CHANGE VALIDATING CARRIER"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "VALIDATING CARRIER - NK"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "Endorsements" :
+                    {
+                      "NonRefundableIndicator" : true
+                    },
+                    "TPA_Extensions" :
+                    {
+                      "FareCalcLine" :
+                      {
+                        "Info" : "DFW NK LAX Q18.60Q4.65 50.23NK DFW Q18.60Q4.65 50.23USD146.96END ZPDFWLAX XFDFW4.5LAX4.5"
+                      }
+                    }
+                  }
+                ]
+              },
+              "FareInfos" :
+              {
+                "FareInfo" :
+                [
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  }
+                ]
+              },
+              "TPA_Extensions" :
+              {
+                "DivideInParty" :
+                {
+                  "Indicator" : false
+                }
+              },
+              "LastTicketDate" : "2015-03-24",
+              "PricingSource" : "ADI1",
+              "PricingSubSource" : "MIP"
+            }
+          ],
+          "TicketingInfo" :
+          {
+            "TicketType" : "eTicket",
+            "ValidInterline" : "Yes"
+          },
+          "TPA_Extensions" :
+          {
+            "ValidatingCarrier" :
+            {
+              "Code" : "NK"
+            }
+          },
+          "SequenceNumber" : 6
+        },
+        {
+          "AirItinerary" :
+          {
+            "OriginDestinationOptions" :
+            {
+              "OriginDestinationOption" :
+              [
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "867"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "8"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-12T07:04:00",
+                      "ArrivalDateTime" : "2015-04-12T08:26:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "867",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 202
+                    }
+                  ],
+                  "ElapsedTime" : 202
+                },
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "868"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "5"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-13T19:10:00",
+                      "ArrivalDateTime" : "2015-04-13T23:54:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "868",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 164
+                    }
+                  ],
+                  "ElapsedTime" : 164
+                }
+              ]
+            },
+            "DirectionInd" : "Return"
+          },
+          "AirItineraryPricingInfo" :
+          [
+            {
+              "ItinTotalFare" :
+              {
+                "BaseFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "FareConstruction" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "EquivFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "Taxes" :
+                {
+                  "Tax" :
+                  [
+                    {
+                      "TaxCode" : "TOTALTAX",
+                      "Amount" : 39.24,
+                      "CurrencyCode" : "USD",
+                      "DecimalPlaces" : 2
+                    }
+                  ]
+                },
+                "TotalFare" :
+                {
+                  "Amount" : 186.20,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                }
+              },
+              "PTC_FareBreakdowns" :
+              {
+                "PTC_FareBreakdown" :
+                [
+                  {
+                    "PassengerTypeQuantity" :
+                    {
+                      "Code" : "ADT",
+                      "Quantity" : 1
+                    },
+                    "FareBasisCodes" :
+                    {
+                      "FareBasisCode" :
+                      [
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "DFW",
+                          "ArrivalAirportCode" : "LAX"
+                        },
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "LAX",
+                          "ArrivalAirportCode" : "DFW"
+                        }
+                      ]
+                    },
+                    "PassengerFare" :
+                    {
+                      "BaseFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD"
+                      },
+                      "FareConstruction" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "EquivFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "Taxes" :
+                      {
+                        "Tax" :
+                        [
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          }
+                        ],
+                        "TotalTax" :
+                        {
+                          "Amount" : 39.24,
+                          "CurrencyCode" : "USD",
+                          "DecimalPlaces" : 2
+                        }
+                      },
+                      "TotalFare" :
+                      {
+                        "Amount" : 186.20,
+                        "CurrencyCode" : "USD"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "Surcharges" :
+                        [
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          }
+                        ],
+                        "Messages" :
+                        {
+                          "Message" :
+                          [
+                            {
+                              "AirlineCode" : "NK",
+                              "Type" : "N",
+                              "FailCode" : 0,
+                              "Info" : "NONREF/NONTRANS/VALID NK"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "NK HAS NO TICKETING AGREEMENT-CHANGE VALIDATING CARRIER"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "VALIDATING CARRIER - NK"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "Endorsements" :
+                    {
+                      "NonRefundableIndicator" : true
+                    },
+                    "TPA_Extensions" :
+                    {
+                      "FareCalcLine" :
+                      {
+                        "Info" : "DFW NK LAX Q18.60Q4.65 50.23NK DFW Q18.60Q4.65 50.23USD146.96END ZPDFWLAX XFDFW4.5LAX4.5"
+                      }
+                    }
+                  }
+                ]
+              },
+              "FareInfos" :
+              {
+                "FareInfo" :
+                [
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  }
+                ]
+              },
+              "TPA_Extensions" :
+              {
+                "DivideInParty" :
+                {
+                  "Indicator" : false
+                }
+              },
+              "LastTicketDate" : "2015-03-24",
+              "PricingSource" : "ADI1",
+              "PricingSubSource" : "MIP"
+            }
+          ],
+          "TicketingInfo" :
+          {
+            "TicketType" : "eTicket",
+            "ValidInterline" : "Yes"
+          },
+          "TPA_Extensions" :
+          {
+            "ValidatingCarrier" :
+            {
+              "Code" : "NK"
+            }
+          },
+          "SequenceNumber" : 7
+        },
+        {
+          "AirItinerary" :
+          {
+            "OriginDestinationOptions" :
+            {
+              "OriginDestinationOption" :
+              [
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "867"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "8"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-11T07:04:00",
+                      "ArrivalDateTime" : "2015-04-11T08:26:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "867",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 202
+                    }
+                  ],
+                  "ElapsedTime" : 202
+                },
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "LAX",
+                        "TerminalID" : "3"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "DFW",
+                        "TerminalID" : "E"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "NK",
+                        "FlightNumber" : "868"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "320"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "NK"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -7.0
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -5.0
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "5"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-12T19:10:00",
+                      "ArrivalDateTime" : "2015-04-12T23:54:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "868",
+                      "ResBookDesigCode" : "R",
+                      "ElapsedTime" : 164
+                    }
+                  ],
+                  "ElapsedTime" : 164
+                }
+              ]
+            },
+            "DirectionInd" : "Return"
+          },
+          "AirItineraryPricingInfo" :
+          [
+            {
+              "ItinTotalFare" :
+              {
+                "BaseFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "FareConstruction" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "EquivFare" :
+                {
+                  "Amount" : 146.96,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "Taxes" :
+                {
+                  "Tax" :
+                  [
+                    {
+                      "TaxCode" : "TOTALTAX",
+                      "Amount" : 39.24,
+                      "CurrencyCode" : "USD",
+                      "DecimalPlaces" : 2
+                    }
+                  ]
+                },
+                "TotalFare" :
+                {
+                  "Amount" : 186.20,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                }
+              },
+              "PTC_FareBreakdowns" :
+              {
+                "PTC_FareBreakdown" :
+                [
+                  {
+                    "PassengerTypeQuantity" :
+                    {
+                      "Code" : "ADT",
+                      "Quantity" : 1
+                    },
+                    "FareBasisCodes" :
+                    {
+                      "FareBasisCode" :
+                      [
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "DFW",
+                          "ArrivalAirportCode" : "LAX"
+                        },
+                        {
+                          "content" : "R14Z6NR",
+                          "BookingCode" : "R",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "LAX",
+                          "ArrivalAirportCode" : "DFW"
+                        }
+                      ]
+                    },
+                    "PassengerFare" :
+                    {
+                      "BaseFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD"
+                      },
+                      "FareConstruction" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "EquivFare" :
+                      {
+                        "Amount" : 146.96,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "Taxes" :
+                      {
+                        "Tax" :
+                        [
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 5.52,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4.00,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.60,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.50,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          }
+                        ],
+                        "TotalTax" :
+                        {
+                          "Amount" : 39.24,
+                          "CurrencyCode" : "USD",
+                          "DecimalPlaces" : 2
+                        }
+                      },
+                      "TotalFare" :
+                      {
+                        "Amount" : 186.20,
+                        "CurrencyCode" : "USD"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "Surcharges" :
+                        [
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "18.60",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          },
+                          {
+                            "content" : "4.65",
+                            "Ind" : "Q",
+                            "Type" : "MISCELLANEOUS/OTHER"
+                          }
+                        ],
+                        "Messages" :
+                        {
+                          "Message" :
+                          [
+                            {
+                              "AirlineCode" : "NK",
+                              "Type" : "N",
+                              "FailCode" : 0,
+                              "Info" : "NONREF/NONTRANS/VALID NK"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "NK HAS NO TICKETING AGREEMENT-CHANGE VALIDATING CARRIER"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "VALIDATING CARRIER - NK"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "Endorsements" :
+                    {
+                      "NonRefundableIndicator" : true
+                    },
+                    "TPA_Extensions" :
+                    {
+                      "FareCalcLine" :
+                      {
+                        "Info" : "DFW NK LAX Q18.60Q4.65 50.23NK DFW Q18.60Q4.65 50.23USD146.96END ZPDFWLAX XFDFW4.5LAX4.5"
+                      }
+                    }
+                  }
+                ]
+              },
+              "FareInfos" :
+              {
+                "FareInfo" :
+                [
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference" : "R",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      }
+                    }
+                  }
+                ]
+              },
+              "TPA_Extensions" :
+              {
+                "DivideInParty" :
+                {
+                  "Indicator" : false
+                }
+              },
+              "LastTicketDate" : "2015-03-24",
+              "PricingSource" : "ADVJR1",
+              "PricingSubSource" : "MIP"
+            }
+          ],
+          "TicketingInfo" :
+          {
+            "TicketType" : "eTicket",
+            "ValidInterline" : "Yes"
+          },
+          "TPA_Extensions" :
+          {
+            "ValidatingCarrier" :
+            {
+              "Code" : "NK"
+            }
+          },
+          "SequenceNumber" : 8
+        }
+      ]
+    },
+    "PricedItinCount" : 8,
+    "BrandedOneWayItinCount" : 0,
+    "SimpleOneWayItinCount" : 0,
+    "DepartedItinCount" : 0,
+    "SoldOutItinCount" : 0,
+    "AvailableItinCount" : 0,
+    "Version" : "1.8.5"
+  },
+  "Links" :
+  [
+    {
+      "rel" : "self",
+      "href" : "https://api.test.sabre.com/v1.8.5/shop/altdates/flights?mode=live&Content-Type=application%2Fjson"
+    },
+    {
+      "rel" : "linkTemplate",
+      "href" : "https://api.test.sabre.com/<version>/shop/altdates/flights?mode=<mode>"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "Destinations": [
+    {
+      "Destination": "CLT",
+      "Links": [
+        {
+          "rel": "shopTemplate",
+          "href": "https://api.test.sabre.com/v1/shop/themes/NATIONAL-PARKS/flights/fares?origin=<origin>&departuredate=<departuredate>&returndate=<returndate>&location=<location>&minfare=<minfare>&maxfare=<maxfare>"
+        }
+      ]
+    },
+    {
+      "Destination": "DEN",
+      "Links": [
+        {
+          "rel": "shopTemplate",
+          "href": "https://api.test.sabre.com/v1/shop/themes/NATIONAL-PARKS/flights/fares?origin=<origin>&departuredate=<departuredate>&returndate=<returndate>&location=<location>&minfare=<minfare>&maxfare=<maxfare>"
+        }
+      ]
+    }
+  ],
+  "Links": [
+    {
+      "rel": "self",
+      "href": "https://api.test.sabre.com/v1/shop/themes/NATIONAL-PARKS"
+    },
+    {
+      "rel": "linkTemplate",
+      "href": "https://api.test.sabre.com/v1/shop/themes/<theme>"
+    }
+  ]
+}

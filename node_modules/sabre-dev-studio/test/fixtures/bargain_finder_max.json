@@ -1,0 +1,482 @@
+{
+  "OTA_AirLowFareSearchRS" :
+  {
+    "Success" :
+    {
+    },
+    "Warnings" :
+    {
+      "Warning" :
+      [
+        {
+          "Type" : "WORKERTHREAD",
+          "ShortText" : "142468359580086458",
+          "Code" : "TRANSACTIONID",
+          "MessageClass" : "I"
+        },
+        {
+          "Type" : "SERVER",
+          "ShortText" : "27033",
+          "Code" : "PIFHLC108",
+          "MessageClass" : "I"
+        },
+        {
+          "Type" : "DEFAULT",
+          "ShortText" : "13330",
+          "Code" : "RULEID",
+          "MessageClass" : "I"
+        },
+        {
+          "Type" : "DRE",
+          "ShortText" : "13289",
+          "Code" : "RULEID",
+          "MessageClass" : "I"
+        }
+      ]
+    },
+    "PricedItineraries" :
+    {
+      "PricedItinerary" :
+      [
+        {
+          "AirItinerary" :
+          {
+            "OriginDestinationOptions" :
+            {
+              "OriginDestinationOption" :
+              [
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "LAS",
+                        "TerminalID" : "1"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "JFK",
+                        "TerminalID" : "4"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "DL",
+                        "FlightNumber" : "1728"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "73H"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "DL"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -7
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -4
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "6"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-11T16:14:00",
+                      "ArrivalDateTime" : "2015-04-11T23:59:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "1728",
+                      "ResBookDesigCode" : "V",
+                      "ElapsedTime" : 285
+                    }
+                  ],
+                  "ElapsedTime" : 285
+                },
+                {
+                  "FlightSegment" :
+                  [
+                    {
+                      "DepartureAirport" :
+                      {
+                        "LocationCode" : "JFK",
+                        "TerminalID" : "4"
+                      },
+                      "ArrivalAirport" :
+                      {
+                        "LocationCode" : "LAS",
+                        "TerminalID" : "1"
+                      },
+                      "OperatingAirline" :
+                      {
+                        "Code" : "DL",
+                        "FlightNumber" : "456"
+                      },
+                      "Equipment" :
+                      [
+                        {
+                          "AirEquipType" : "757"
+                        }
+                      ],
+                      "MarketingAirline" :
+                      {
+                        "Code" : "DL"
+                      },
+                      "MarriageGrp" : "O",
+                      "DepartureTimeZone" :
+                      {
+                        "GMTOffset" : -4
+                      },
+                      "ArrivalTimeZone" :
+                      {
+                        "GMTOffset" : -7
+                      },
+                      "OnTimePerformance" :
+                      {
+                        "Level" : "9"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "eTicket" :
+                        {
+                          "Ind" : true
+                        }
+                      },
+                      "DepartureDateTime" : "2015-04-12T08:00:00",
+                      "ArrivalDateTime" : "2015-04-12T10:52:00",
+                      "StopQuantity" : 0,
+                      "FlightNumber" : "456",
+                      "ResBookDesigCode" : "X",
+                      "ElapsedTime" : 352
+                    }
+                  ],
+                  "ElapsedTime" : 352
+                }
+              ]
+            },
+            "DirectionInd" : "Return"
+          },
+          "AirItineraryPricingInfo" :
+          [
+            {
+              "ItinTotalFare" :
+              {
+                "BaseFare" :
+                {
+                  "Amount" : 269.77,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "FareConstruction" :
+                {
+                  "Amount" : 269.77,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "EquivFare" :
+                {
+                  "Amount" : 269.77,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                },
+                "Taxes" :
+                {
+                  "Tax" :
+                  [
+                    {
+                      "TaxCode" : "TOTALTAX",
+                      "Amount" : 48.43,
+                      "CurrencyCode" : "USD",
+                      "DecimalPlaces" : 2
+                    }
+                  ]
+                },
+                "TotalFare" :
+                {
+                  "Amount" : 318.2,
+                  "CurrencyCode" : "USD",
+                  "DecimalPlaces" : 2
+                }
+              },
+              "PTC_FareBreakdowns" :
+              {
+                "PTC_FareBreakdown" :
+                [
+                  {
+                    "PassengerTypeQuantity" :
+                    {
+                      "Code" : "ADT",
+                      "Quantity" : 1
+                    },
+                    "FareBasisCodes" :
+                    {
+                      "FareBasisCode" :
+                      [
+                        {
+                          "content" : "VA14B3NP",
+                          "BookingCode" : "V",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "LAS",
+                          "ArrivalAirportCode" : "JFK"
+                        },
+                        {
+                          "content" : "XA21A0NP",
+                          "BookingCode" : "X",
+                          "AvailabilityBreak" : true,
+                          "DepartureAirportCode" : "JFK",
+                          "ArrivalAirportCode" : "LAS"
+                        }
+                      ]
+                    },
+                    "PassengerFare" :
+                    {
+                      "BaseFare" :
+                      {
+                        "Amount" : 269.77,
+                        "CurrencyCode" : "USD"
+                      },
+                      "FareConstruction" :
+                      {
+                        "Amount" : 269.77,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "EquivFare" :
+                      {
+                        "Amount" : 269.77,
+                        "CurrencyCode" : "USD",
+                        "DecimalPlaces" : 2
+                      },
+                      "Taxes" :
+                      {
+                        "Tax" :
+                        [
+                          {
+                            "TaxCode" : "US1",
+                            "Amount" : 20.23,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "ZP",
+                            "Amount" : 4,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.6,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "AY",
+                            "Amount" : 5.6,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.5,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          },
+                          {
+                            "TaxCode" : "XF",
+                            "Amount" : 4.5,
+                            "CurrencyCode" : "USD",
+                            "DecimalPlaces" : 2
+                          }
+                        ],
+                        "TotalTax" :
+                        {
+                          "Amount" : 48.43,
+                          "CurrencyCode" : "USD",
+                          "DecimalPlaces" : 2
+                        }
+                      },
+                      "TotalFare" :
+                      {
+                        "Amount" : 318.2,
+                        "CurrencyCode" : "USD"
+                      },
+                      "TPA_Extensions" :
+                      {
+                        "Messages" :
+                        {
+                          "Message" :
+                          [
+                            {
+                              "AirlineCode" : "DL",
+                              "Type" : "N",
+                              "FailCode" : 0,
+                              "Info" : "NONREF/PENALTY APPLIES"
+                            },
+                            {
+                              "Type" : "W",
+                              "FailCode" : 0,
+                              "Info" : "VALIDATING CARRIER - DL"
+                            }
+                          ]
+                        },
+                        "BaggageInformationList" :
+                        {
+                          "BaggageInformation" :
+                          [
+                            {
+                              "Segment" :
+                              [
+                                {
+                                  "Id" : 0
+                                }
+                              ],
+                              "Allowance" :
+                              {
+                                "Pieces" : 0
+                              }
+                            },
+                            {
+                              "Segment" :
+                              [
+                                {
+                                  "Id" : 1
+                                }
+                              ],
+                              "Allowance" :
+                              {
+                                "Pieces" : 0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "Endorsements" :
+                    {
+                      "NonRefundableIndicator" : true
+                    },
+                    "TPA_Extensions" :
+                    {
+                      "FareCalcLine" :
+                      {
+                        "Info" : "LAS DL NYC121.86DL LAS147.91USD269.77END ZPLASJFK XFLAS4.5JFK4.5"
+                      }
+                    }
+                  }
+                ]
+              },
+              "FareInfos" :
+              {
+                "FareInfo" :
+                [
+                  {
+                    "FareReference" : "V",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      },
+                      "Meal" :
+                      {
+                        "Code" : "D"
+                      }
+                    }
+                  },
+                  {
+                    "FareReference" : "X",
+                    "TPA_Extensions" :
+                    {
+                      "SeatsRemaining" :
+                      {
+                        "Number" : 4,
+                        "BelowMin" : false
+                      },
+                      "Cabin" :
+                      {
+                        "Cabin" : "Y"
+                      },
+                      "Meal" :
+                      {
+                        "Code" : "B"
+                      }
+                    }
+                  }
+                ]
+              },
+              "TPA_Extensions" :
+              {
+                "DivideInParty" :
+                {
+                  "Indicator" : false
+                },
+                "ValidatingCarrier" :
+                {
+                  "Default" : "DL",
+                  "SettlementMethod" : "ARC",
+                  "NewVcxProcess" : true
+                }
+              },
+              "LastTicketDate" : "2015-02-24",
+              "PricingSource" : "ADVJR1",
+              "PricingSubSource" : "MIP"
+            }
+          ],
+          "TicketingInfo" :
+          {
+            "TicketType" : "eTicket",
+            "ValidInterline" : "Yes"
+          },
+          "TPA_Extensions" :
+          {
+            "ValidatingCarrier" :
+            {
+              "Code" : "DL"
+            }
+          },
+          "SequenceNumber" : 1
+        }
+      ]
+    },
+    "PricedItinCount" : 1,
+    "BrandedOneWayItinCount" : 0,
+    "SimpleOneWayItinCount" : 0,
+    "DepartedItinCount" : 0,
+    "SoldOutItinCount" : 0,
+    "AvailableItinCount" : 0,
+    "Version" : "1.8.5"
+  },
+  "Links" :
+  [
+    {
+      "rel" : "self",
+      "href" : "https://api.sabre.com/v1.8.5/shop/flights?mode=live"
+    },
+    {
+      "rel" : "linkTemplate",
+      "href" : "https://api.sabre.com//shop/flights?mode=<mode>"
+    }
+  ]
+}

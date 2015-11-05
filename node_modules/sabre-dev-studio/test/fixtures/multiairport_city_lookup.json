@@ -1,0 +1,164 @@
+{
+  "Cities": [
+    {
+      "code": "CHI",
+      "name": "Chicago",
+      "Links": [
+        {
+          "rel": "airportsInCity",
+          "href": "https://api.test.sabre.com/v1/lists/airports?city=CHI"
+        }
+      ]
+    },
+    {
+      "code": "CVG",
+      "name": "Cincinnati",
+      "Links": [
+        {
+          "rel": "airportsInCity",
+          "href": "https://api.test.sabre.com/v1/lists/airports?city=CVG"
+        }
+      ]
+    },
+    {
+      "code": "DTT",
+      "name": "Detroit",
+      "Links": [
+        {
+          "rel": "airportsInCity",
+          "href": "https://api.test.sabre.com/v1/lists/airports?city=DTT"
+        }
+      ]
+    },
+    {
+      "code": "FYV",
+      "name": "Fayetteville",
+      "Links": [
+        {
+          "rel": "airportsInCity",
+          "href": "https://api.test.sabre.com/v1/lists/airports?city=FYV"
+        }
+      ]
+    },
+    {
+      "code": "HAR",
+      "name": "Harrisburg",
+      "Links": [
+        {
+          "rel": "airportsInCity",
+          "href": "https://api.test.sabre.com/v1/lists/airports?city=HAR"
+        }
+      ]
+    },
+    {
+      "code": "HFD",
+      "name": "Hartford",
+      "Links": [
+        {
+          "rel": "airportsInCity",
+          "href": "https://api.test.sabre.com/v1/lists/airports?city=HFD"
+        }
+      ]
+    },
+    {
+      "code": "MKC",
+      "name": "Kansas City",
+      "Links": [
+        {
+          "rel": "airportsInCity",
+          "href": "https://api.test.sabre.com/v1/lists/airports?city=MKC"
+        }
+      ]
+    },
+    {
+      "code": "NYC",
+      "name": "New York",
+      "Links": [
+        {
+          "rel": "airportsInCity",
+          "href": "https://api.test.sabre.com/v1/lists/airports?city=NYC"
+        }
+      ]
+    },
+    {
+      "code": "ORL",
+      "name": "Orlando",
+      "Links": [
+        {
+          "rel": "airportsInCity",
+          "href": "https://api.test.sabre.com/v1/lists/airports?city=ORL"
+        }
+      ]
+    },
+    {
+      "code": "QDF",
+      "name": "Dallas/Fort Worth",
+      "Links": [
+        {
+          "rel": "airportsInCity",
+          "href": "https://api.test.sabre.com/v1/lists/airports?city=QDF"
+        }
+      ]
+    },
+    {
+      "code": "QHO",
+      "name": "Houston",
+      "Links": [
+        {
+          "rel": "airportsInCity",
+          "href": "https://api.test.sabre.com/v1/lists/airports?city=QHO"
+        }
+      ]
+    },
+    {
+      "code": "QPH",
+      "name": "Philadelphia",
+      "Links": [
+        {
+          "rel": "airportsInCity",
+          "href": "https://api.test.sabre.com/v1/lists/airports?city=QPH"
+        }
+      ]
+    },
+    {
+      "code": "SEA",
+      "name": "Seattle",
+      "Links": [
+        {
+          "rel": "airportsInCity",
+          "href": "https://api.test.sabre.com/v1/lists/airports?city=SEA"
+        }
+      ]
+    },
+    {
+      "code": "TPA",
+      "name": "Tampa",
+      "Links": [
+        {
+          "rel": "airportsInCity",
+          "href": "https://api.test.sabre.com/v1/lists/airports?city=TPA"
+        }
+      ]
+    },
+    {
+      "code": "WAS",
+      "name": "Washington/Baltimore",
+      "Links": [
+        {
+          "rel": "airportsInCity",
+          "href": "https://api.test.sabre.com/v1/lists/airports?city=WAS"
+        }
+      ]
+    }
+  ],
+  "Links": [
+    {
+      "rel": "self",
+      "href": "https://api.test.sabre.com/v1/lists/cities?country=US"
+    },
+    {
+      "rel": "linkTemplate",
+      "href": "https://api.test.sabre.com/v1/lists/cities?country=<country>"
+    }
+  ]
+}

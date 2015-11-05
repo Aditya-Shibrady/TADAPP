@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html x-ng-app="MyApp">
+<head>
+<title>Low Fare Forecast Test</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body x-ng-controller="MyCtrl as ctrl">
+	<div>{{ctrl.ff_res}}</div>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-resource.min.js"></script>
+	<script type="text/javascript">
+		var app = angular.module('MyApp', [ 'ngResource' ]);
+
+		app.service('AuthService', function($resource) {
+			return $resource('https://api.twitter.com/oauth2/token', {}, {
+				auth : {
+					method : 'POST',
+					headers : {
+						'Content-Type' : 'application/x-www-form-urlencoded;charset=UTF-8',
+						'Authorization' : 'Basic '
+								+ btoa('OAM5u9sFkjEVjHV5rHATqZhH0' + ':'
+										+ 'BJLfVZAKEAxkeg7mXMNYpabPP0JKo7a4DqhClsGfzeVPoDWAdj')
+					},
+					isArray : false
+				}
+			});
+		});
+
+		app
+				.service(
+						'FareForecastService',
+						function($resource) {
+							return $resource(
+									'https://api.twitter.com/1.1/statuses/user_timeline.json?count=1000&user_id=105777356&screen_name=aditya_shibrady',
+									{},
+									{
+										search : {
+											method : 'GET',
+											headers : {
+												'Content-Type' : 'application/json',
+												'Authorization' : getAuthorization
+											},
+											isArray : false
+										}
+									});
+						});
+
+		function getAuthorization() {
+			return 'bearer ' + authToken;
+		}
+
+		var authToken = '';
+
+		app.controller('MyCtrl', function($scope, AuthService,
+				FareForecastService) {
+			var ctrl = this;
+			authToken = AuthService.auth({}, "grant_type=client_credentials",
+					function(res) {
+						authToken = res.access_token;
+						console.log("Auth Token: " + authToken);
+						ctrl.ff_res = FareForecastService.search();
+					}).access_token;
+		});
+	</script>
+</body>
+</html>

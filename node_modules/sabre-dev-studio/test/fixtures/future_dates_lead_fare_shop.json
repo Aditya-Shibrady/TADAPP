@@ -1,0 +1,2525 @@
+{
+  "OriginLocation": "JFK",
+  "DestinationLocation": "LAX",
+  "FareInfo": [
+    {
+      "LowestFare": 792,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 792,
+      "DepartureDateTime": "2014-04-10T00:00:00",
+      "ReturnDateTime": "2014-04-15T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-10&returndate=2014-04-15"
+        }
+      ]
+    },
+    {
+      "LowestFare": 592,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 592,
+      "DepartureDateTime": "2014-04-11T00:00:00",
+      "ReturnDateTime": "2014-04-16T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-11&returndate=2014-04-16"
+        }
+      ]
+    },
+    {
+      "LowestFare": 592,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 592,
+      "DepartureDateTime": "2014-04-12T00:00:00",
+      "ReturnDateTime": "2014-04-17T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-12&returndate=2014-04-17"
+        }
+      ]
+    },
+    {
+      "LowestFare": 592,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 592,
+      "DepartureDateTime": "2014-04-13T00:00:00",
+      "ReturnDateTime": "2014-04-18T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-13&returndate=2014-04-18"
+        }
+      ]
+    },
+    {
+      "LowestFare": 570,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 592,
+      "DepartureDateTime": "2014-04-14T00:00:00",
+      "ReturnDateTime": "2014-04-19T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-14&returndate=2014-04-19"
+        }
+      ]
+    },
+    {
+      "LowestFare": 341.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 408,
+      "DepartureDateTime": "2014-04-15T00:00:00",
+      "ReturnDateTime": "2014-04-20T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-15&returndate=2014-04-20"
+        }
+      ]
+    },
+    {
+      "LowestFare": 341.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 408,
+      "DepartureDateTime": "2014-04-16T00:00:00",
+      "ReturnDateTime": "2014-04-21T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-16&returndate=2014-04-21"
+        }
+      ]
+    },
+    {
+      "LowestFare": 331.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 398,
+      "DepartureDateTime": "2014-04-17T00:00:00",
+      "ReturnDateTime": "2014-04-22T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-17&returndate=2014-04-22"
+        }
+      ]
+    },
+    {
+      "LowestFare": 331.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 398,
+      "DepartureDateTime": "2014-04-18T00:00:00",
+      "ReturnDateTime": "2014-04-23T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-18&returndate=2014-04-23"
+        }
+      ]
+    },
+    {
+      "LowestFare": 331.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 398,
+      "DepartureDateTime": "2014-04-19T00:00:00",
+      "ReturnDateTime": "2014-04-24T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-19&returndate=2014-04-24"
+        }
+      ]
+    },
+    {
+      "LowestFare": 331.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 398,
+      "DepartureDateTime": "2014-04-20T00:00:00",
+      "ReturnDateTime": "2014-04-25T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-20&returndate=2014-04-25"
+        }
+      ]
+    },
+    {
+      "LowestFare": 384,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 398,
+      "DepartureDateTime": "2014-04-21T00:00:00",
+      "ReturnDateTime": "2014-04-26T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-21&returndate=2014-04-26"
+        }
+      ]
+    },
+    {
+      "LowestFare": 328.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 362,
+      "DepartureDateTime": "2014-04-22T00:00:00",
+      "ReturnDateTime": "2014-04-27T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-22&returndate=2014-04-27"
+        }
+      ]
+    },
+    {
+      "LowestFare": 323,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 339,
+      "DepartureDateTime": "2014-04-23T00:00:00",
+      "ReturnDateTime": "2014-04-28T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-23&returndate=2014-04-28"
+        }
+      ]
+    },
+    {
+      "LowestFare": 323,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 339,
+      "DepartureDateTime": "2014-04-24T00:00:00",
+      "ReturnDateTime": "2014-04-29T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-24&returndate=2014-04-29"
+        }
+      ]
+    },
+    {
+      "LowestFare": 323,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 339,
+      "DepartureDateTime": "2014-04-25T00:00:00",
+      "ReturnDateTime": "2014-04-30T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-25&returndate=2014-04-30"
+        }
+      ]
+    },
+    {
+      "LowestFare": 321.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 339,
+      "DepartureDateTime": "2014-04-26T00:00:00",
+      "ReturnDateTime": "2014-05-01T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-26&returndate=2014-05-01"
+        }
+      ]
+    },
+    {
+      "LowestFare": 339,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 339,
+      "DepartureDateTime": "2014-04-27T00:00:00",
+      "ReturnDateTime": "2014-05-02T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-27&returndate=2014-05-02"
+        }
+      ]
+    },
+    {
+      "LowestFare": 344.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 362,
+      "DepartureDateTime": "2014-04-28T00:00:00",
+      "ReturnDateTime": "2014-05-03T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-28&returndate=2014-05-03"
+        }
+      ]
+    },
+    {
+      "LowestFare": 328.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 362,
+      "DepartureDateTime": "2014-04-29T00:00:00",
+      "ReturnDateTime": "2014-05-04T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-29&returndate=2014-05-04"
+        }
+      ]
+    },
+    {
+      "LowestFare": 322.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-04-30T00:00:00",
+      "ReturnDateTime": "2014-05-05T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-04-30&returndate=2014-05-05"
+        }
+      ]
+    },
+    {
+      "LowestFare": 324,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-01T00:00:00",
+      "ReturnDateTime": "2014-05-06T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-01&returndate=2014-05-06"
+        }
+      ]
+    },
+    {
+      "LowestFare": 324,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 337,
+      "DepartureDateTime": "2014-05-02T00:00:00",
+      "ReturnDateTime": "2014-05-07T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-02&returndate=2014-05-07"
+        }
+      ]
+    },
+    {
+      "LowestFare": 322.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-03T00:00:00",
+      "ReturnDateTime": "2014-05-08T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-03&returndate=2014-05-08"
+        }
+      ]
+    },
+    {
+      "LowestFare": 328.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 360,
+      "DepartureDateTime": "2014-05-04T00:00:00",
+      "ReturnDateTime": "2014-05-09T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-04&returndate=2014-05-09"
+        }
+      ]
+    },
+    {
+      "LowestFare": 324,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 337,
+      "DepartureDateTime": "2014-05-05T00:00:00",
+      "ReturnDateTime": "2014-05-10T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-05&returndate=2014-05-10"
+        }
+      ]
+    },
+    {
+      "LowestFare": 322.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 353,
+      "DepartureDateTime": "2014-05-06T00:00:00",
+      "ReturnDateTime": "2014-05-11T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-06&returndate=2014-05-11"
+        }
+      ]
+    },
+    {
+      "LowestFare": 324,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-07T00:00:00",
+      "ReturnDateTime": "2014-05-12T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-07&returndate=2014-05-12"
+        }
+      ]
+    },
+    {
+      "LowestFare": 324,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 337,
+      "DepartureDateTime": "2014-05-08T00:00:00",
+      "ReturnDateTime": "2014-05-13T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-08&returndate=2014-05-13"
+        }
+      ]
+    },
+    {
+      "LowestFare": 324,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 337,
+      "DepartureDateTime": "2014-05-09T00:00:00",
+      "ReturnDateTime": "2014-05-14T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-09&returndate=2014-05-14"
+        }
+      ]
+    },
+    {
+      "LowestFare": 322.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-10T00:00:00",
+      "ReturnDateTime": "2014-05-15T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-10&returndate=2014-05-15"
+        }
+      ]
+    },
+    {
+      "LowestFare": 328.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 373,
+      "DepartureDateTime": "2014-05-11T00:00:00",
+      "ReturnDateTime": "2014-05-16T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-11&returndate=2014-05-16"
+        }
+      ]
+    },
+    {
+      "LowestFare": 324,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 337,
+      "DepartureDateTime": "2014-05-12T00:00:00",
+      "ReturnDateTime": "2014-05-17T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-12&returndate=2014-05-17"
+        }
+      ]
+    },
+    {
+      "LowestFare": 322.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 353,
+      "DepartureDateTime": "2014-05-13T00:00:00",
+      "ReturnDateTime": "2014-05-18T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-13&returndate=2014-05-18"
+        }
+      ]
+    },
+    {
+      "LowestFare": 324,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-14T00:00:00",
+      "ReturnDateTime": "2014-05-19T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-14&returndate=2014-05-19"
+        }
+      ]
+    },
+    {
+      "LowestFare": 328.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-15T00:00:00",
+      "ReturnDateTime": "2014-05-20T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-15&returndate=2014-05-20"
+        }
+      ]
+    },
+    {
+      "LowestFare": 330,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-16T00:00:00",
+      "ReturnDateTime": "2014-05-21T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-16&returndate=2014-05-21"
+        }
+      ]
+    },
+    {
+      "LowestFare": 323.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-17T00:00:00",
+      "ReturnDateTime": "2014-05-22T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-17&returndate=2014-05-22"
+        }
+      ]
+    },
+    {
+      "LowestFare": 344,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 373,
+      "DepartureDateTime": "2014-05-18T00:00:00",
+      "ReturnDateTime": "2014-05-23T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-18&returndate=2014-05-23"
+        }
+      ]
+    },
+    {
+      "LowestFare": 324,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-19T00:00:00",
+      "ReturnDateTime": "2014-05-24T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-19&returndate=2014-05-24"
+        }
+      ]
+    },
+    {
+      "LowestFare": 327,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 327,
+      "DepartureDateTime": "2014-05-20T00:00:00",
+      "ReturnDateTime": "2014-05-25T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-20&returndate=2014-05-25"
+        }
+      ]
+    },
+    {
+      "LowestFare": 338,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-21T00:00:00",
+      "ReturnDateTime": "2014-05-26T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-21&returndate=2014-05-26"
+        }
+      ]
+    },
+    {
+      "LowestFare": 318,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 318,
+      "DepartureDateTime": "2014-05-22T00:00:00",
+      "ReturnDateTime": "2014-05-27T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-22&returndate=2014-05-27"
+        }
+      ]
+    },
+    {
+      "LowestFare": 338,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-23T00:00:00",
+      "ReturnDateTime": "2014-05-28T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-23&returndate=2014-05-28"
+        }
+      ]
+    },
+    {
+      "LowestFare": 323.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-24T00:00:00",
+      "ReturnDateTime": "2014-05-29T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-24&returndate=2014-05-29"
+        }
+      ]
+    },
+    {
+      "LowestFare": 348.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-05-25T00:00:00",
+      "ReturnDateTime": "2014-05-30T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-25&returndate=2014-05-30"
+        }
+      ]
+    },
+    {
+      "LowestFare": 338,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-26T00:00:00",
+      "ReturnDateTime": "2014-05-31T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-26&returndate=2014-05-31"
+        }
+      ]
+    },
+    {
+      "LowestFare": 332.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-05-27T00:00:00",
+      "ReturnDateTime": "2014-06-01T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-27&returndate=2014-06-01"
+        }
+      ]
+    },
+    {
+      "LowestFare": 338,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-28T00:00:00",
+      "ReturnDateTime": "2014-06-02T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-28&returndate=2014-06-02"
+        }
+      ]
+    },
+    {
+      "LowestFare": 329,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-29T00:00:00",
+      "ReturnDateTime": "2014-06-03T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-29&returndate=2014-06-03"
+        }
+      ]
+    },
+    {
+      "LowestFare": 338,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-30T00:00:00",
+      "ReturnDateTime": "2014-06-04T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-30&returndate=2014-06-04"
+        }
+      ]
+    },
+    {
+      "LowestFare": 325,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-05-31T00:00:00",
+      "ReturnDateTime": "2014-06-05T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-05-31&returndate=2014-06-05"
+        }
+      ]
+    },
+    {
+      "LowestFare": 347,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-01T00:00:00",
+      "ReturnDateTime": "2014-06-06T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-01&returndate=2014-06-06"
+        }
+      ]
+    },
+    {
+      "LowestFare": 338,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-06-02T00:00:00",
+      "ReturnDateTime": "2014-06-07T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-02&returndate=2014-06-07"
+        }
+      ]
+    },
+    {
+      "LowestFare": 339.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-03T00:00:00",
+      "ReturnDateTime": "2014-06-08T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-03&returndate=2014-06-08"
+        }
+      ]
+    },
+    {
+      "LowestFare": 338,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-06-04T00:00:00",
+      "ReturnDateTime": "2014-06-09T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-04&returndate=2014-06-09"
+        }
+      ]
+    },
+    {
+      "LowestFare": 338,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-06-05T00:00:00",
+      "ReturnDateTime": "2014-06-10T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-05&returndate=2014-06-10"
+        }
+      ]
+    },
+    {
+      "LowestFare": 338,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 338,
+      "DepartureDateTime": "2014-06-06T00:00:00",
+      "ReturnDateTime": "2014-06-11T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-06&returndate=2014-06-11"
+        }
+      ]
+    },
+    {
+      "LowestFare": 333,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-07T00:00:00",
+      "ReturnDateTime": "2014-06-12T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-07&returndate=2014-06-12"
+        }
+      ]
+    },
+    {
+      "LowestFare": 369,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-08T00:00:00",
+      "ReturnDateTime": "2014-06-13T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-08&returndate=2014-06-13"
+        }
+      ]
+    },
+    {
+      "LowestFare": 373,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 373,
+      "DepartureDateTime": "2014-06-09T00:00:00",
+      "ReturnDateTime": "2014-06-14T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-09&returndate=2014-06-14"
+        }
+      ]
+    },
+    {
+      "LowestFare": 353,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 353,
+      "DepartureDateTime": "2014-06-10T00:00:00",
+      "ReturnDateTime": "2014-06-15T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-10&returndate=2014-06-15"
+        }
+      ]
+    },
+    {
+      "LowestFare": 353,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 353,
+      "DepartureDateTime": "2014-06-11T00:00:00",
+      "ReturnDateTime": "2014-06-16T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-11&returndate=2014-06-16"
+        }
+      ]
+    },
+    {
+      "LowestFare": 368.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-12T00:00:00",
+      "ReturnDateTime": "2014-06-17T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-12&returndate=2014-06-17"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-13T00:00:00",
+      "ReturnDateTime": "2014-06-18T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-13&returndate=2014-06-18"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-14T00:00:00",
+      "ReturnDateTime": "2014-06-19T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-14&returndate=2014-06-19"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-15T00:00:00",
+      "ReturnDateTime": "2014-06-20T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-15&returndate=2014-06-20"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-16T00:00:00",
+      "ReturnDateTime": "2014-06-21T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-16&returndate=2014-06-21"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-17T00:00:00",
+      "ReturnDateTime": "2014-06-22T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-17&returndate=2014-06-22"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-18T00:00:00",
+      "ReturnDateTime": "2014-06-23T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-18&returndate=2014-06-23"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-19T00:00:00",
+      "ReturnDateTime": "2014-06-24T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-19&returndate=2014-06-24"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-20T00:00:00",
+      "ReturnDateTime": "2014-06-25T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-20&returndate=2014-06-25"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-21T00:00:00",
+      "ReturnDateTime": "2014-06-26T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-21&returndate=2014-06-26"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-22T00:00:00",
+      "ReturnDateTime": "2014-06-27T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-22&returndate=2014-06-27"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-23T00:00:00",
+      "ReturnDateTime": "2014-06-28T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-23&returndate=2014-06-28"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-24T00:00:00",
+      "ReturnDateTime": "2014-06-29T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-24&returndate=2014-06-29"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-25T00:00:00",
+      "ReturnDateTime": "2014-06-30T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-25&returndate=2014-06-30"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-26T00:00:00",
+      "ReturnDateTime": "2014-07-01T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-26&returndate=2014-07-01"
+        }
+      ]
+    },
+    {
+      "LowestFare": 382,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 382,
+      "DepartureDateTime": "2014-06-27T00:00:00",
+      "ReturnDateTime": "2014-07-02T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-27&returndate=2014-07-02"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-28T00:00:00",
+      "ReturnDateTime": "2014-07-03T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-28&returndate=2014-07-03"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-29T00:00:00",
+      "ReturnDateTime": "2014-07-04T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-29&returndate=2014-07-04"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-06-30T00:00:00",
+      "ReturnDateTime": "2014-07-05T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-06-30&returndate=2014-07-05"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-01T00:00:00",
+      "ReturnDateTime": "2014-07-06T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-01&returndate=2014-07-06"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-02T00:00:00",
+      "ReturnDateTime": "2014-07-07T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-02&returndate=2014-07-07"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-03T00:00:00",
+      "ReturnDateTime": "2014-07-08T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-03&returndate=2014-07-08"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-04T00:00:00",
+      "ReturnDateTime": "2014-07-09T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-04&returndate=2014-07-09"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-05T00:00:00",
+      "ReturnDateTime": "2014-07-10T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-05&returndate=2014-07-10"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-06T00:00:00",
+      "ReturnDateTime": "2014-07-11T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-06&returndate=2014-07-11"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-07T00:00:00",
+      "ReturnDateTime": "2014-07-12T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-07&returndate=2014-07-12"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-08T00:00:00",
+      "ReturnDateTime": "2014-07-13T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-08&returndate=2014-07-13"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-09T00:00:00",
+      "ReturnDateTime": "2014-07-14T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-09&returndate=2014-07-14"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-10T00:00:00",
+      "ReturnDateTime": "2014-07-15T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-10&returndate=2014-07-15"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-11T00:00:00",
+      "ReturnDateTime": "2014-07-16T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-11&returndate=2014-07-16"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-12T00:00:00",
+      "ReturnDateTime": "2014-07-17T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-12&returndate=2014-07-17"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-13T00:00:00",
+      "ReturnDateTime": "2014-07-18T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-13&returndate=2014-07-18"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-14T00:00:00",
+      "ReturnDateTime": "2014-07-19T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-14&returndate=2014-07-19"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-15T00:00:00",
+      "ReturnDateTime": "2014-07-20T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-15&returndate=2014-07-20"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-16T00:00:00",
+      "ReturnDateTime": "2014-07-21T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-16&returndate=2014-07-21"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-17T00:00:00",
+      "ReturnDateTime": "2014-07-22T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-17&returndate=2014-07-22"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-18T00:00:00",
+      "ReturnDateTime": "2014-07-23T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-18&returndate=2014-07-23"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-19T00:00:00",
+      "ReturnDateTime": "2014-07-24T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-19&returndate=2014-07-24"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-20T00:00:00",
+      "ReturnDateTime": "2014-07-25T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-20&returndate=2014-07-25"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-21T00:00:00",
+      "ReturnDateTime": "2014-07-26T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-21&returndate=2014-07-26"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-22T00:00:00",
+      "ReturnDateTime": "2014-07-27T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-22&returndate=2014-07-27"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-23T00:00:00",
+      "ReturnDateTime": "2014-07-28T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-23&returndate=2014-07-28"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-24T00:00:00",
+      "ReturnDateTime": "2014-07-29T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-24&returndate=2014-07-29"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-25T00:00:00",
+      "ReturnDateTime": "2014-07-30T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-25&returndate=2014-07-30"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-26T00:00:00",
+      "ReturnDateTime": "2014-07-31T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-26&returndate=2014-07-31"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-27T00:00:00",
+      "ReturnDateTime": "2014-08-01T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-27&returndate=2014-08-01"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-28T00:00:00",
+      "ReturnDateTime": "2014-08-02T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-28&returndate=2014-08-02"
+        }
+      ]
+    },
+    {
+      "LowestFare": 399,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 413,
+      "DepartureDateTime": "2014-07-29T00:00:00",
+      "ReturnDateTime": "2014-08-03T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-29&returndate=2014-08-03"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-07-30T00:00:00",
+      "ReturnDateTime": "2014-08-04T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-30&returndate=2014-08-04"
+        }
+      ]
+    },
+    {
+      "LowestFare": 399,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 424,
+      "DepartureDateTime": "2014-07-31T00:00:00",
+      "ReturnDateTime": "2014-08-05T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-07-31&returndate=2014-08-05"
+        }
+      ]
+    },
+    {
+      "LowestFare": 399,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 408,
+      "DepartureDateTime": "2014-08-01T00:00:00",
+      "ReturnDateTime": "2014-08-06T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-01&returndate=2014-08-06"
+        }
+      ]
+    },
+    {
+      "LowestFare": 399,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 424,
+      "DepartureDateTime": "2014-08-02T00:00:00",
+      "ReturnDateTime": "2014-08-07T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-02&returndate=2014-08-07"
+        }
+      ]
+    },
+    {
+      "LowestFare": 410,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 424,
+      "DepartureDateTime": "2014-08-03T00:00:00",
+      "ReturnDateTime": "2014-08-08T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-03&returndate=2014-08-08"
+        }
+      ]
+    },
+    {
+      "LowestFare": 405,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 424,
+      "DepartureDateTime": "2014-08-04T00:00:00",
+      "ReturnDateTime": "2014-08-09T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-04&returndate=2014-08-09"
+        }
+      ]
+    },
+    {
+      "LowestFare": 399,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 418,
+      "DepartureDateTime": "2014-08-05T00:00:00",
+      "ReturnDateTime": "2014-08-10T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-05&returndate=2014-08-10"
+        }
+      ]
+    },
+    {
+      "LowestFare": 399,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 424,
+      "DepartureDateTime": "2014-08-06T00:00:00",
+      "ReturnDateTime": "2014-08-11T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-06&returndate=2014-08-11"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-08-07T00:00:00",
+      "ReturnDateTime": "2014-08-12T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-07&returndate=2014-08-12"
+        }
+      ]
+    },
+    {
+      "LowestFare": 399,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 413,
+      "DepartureDateTime": "2014-08-08T00:00:00",
+      "ReturnDateTime": "2014-08-13T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-08&returndate=2014-08-13"
+        }
+      ]
+    },
+    {
+      "LowestFare": 399,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 424,
+      "DepartureDateTime": "2014-08-09T00:00:00",
+      "ReturnDateTime": "2014-08-14T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-09&returndate=2014-08-14"
+        }
+      ]
+    },
+    {
+      "LowestFare": 399,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 424,
+      "DepartureDateTime": "2014-08-10T00:00:00",
+      "ReturnDateTime": "2014-08-15T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-10&returndate=2014-08-15"
+        }
+      ]
+    },
+    {
+      "LowestFare": 409,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 424,
+      "DepartureDateTime": "2014-08-11T00:00:00",
+      "ReturnDateTime": "2014-08-16T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-11&returndate=2014-08-16"
+        }
+      ]
+    },
+    {
+      "LowestFare": 400,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 418,
+      "DepartureDateTime": "2014-08-12T00:00:00",
+      "ReturnDateTime": "2014-08-17T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-12&returndate=2014-08-17"
+        }
+      ]
+    },
+    {
+      "LowestFare": 400,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 424,
+      "DepartureDateTime": "2014-08-13T00:00:00",
+      "ReturnDateTime": "2014-08-18T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-13&returndate=2014-08-18"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-08-14T00:00:00",
+      "ReturnDateTime": "2014-08-19T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-14&returndate=2014-08-19"
+        }
+      ]
+    },
+    {
+      "LowestFare": 400,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 413,
+      "DepartureDateTime": "2014-08-15T00:00:00",
+      "ReturnDateTime": "2014-08-20T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-15&returndate=2014-08-20"
+        }
+      ]
+    },
+    {
+      "LowestFare": 399,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 418,
+      "DepartureDateTime": "2014-08-16T00:00:00",
+      "ReturnDateTime": "2014-08-21T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-16&returndate=2014-08-21"
+        }
+      ]
+    },
+    {
+      "LowestFare": 406,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 406,
+      "DepartureDateTime": "2014-08-17T00:00:00",
+      "ReturnDateTime": "2014-08-22T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-17&returndate=2014-08-22"
+        }
+      ]
+    },
+    {
+      "LowestFare": 404,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 406,
+      "DepartureDateTime": "2014-08-18T00:00:00",
+      "ReturnDateTime": "2014-08-23T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-18&returndate=2014-08-23"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-08-19T00:00:00",
+      "ReturnDateTime": "2014-08-24T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-19&returndate=2014-08-24"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-08-20T00:00:00",
+      "ReturnDateTime": "2014-08-25T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-20&returndate=2014-08-25"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-08-21T00:00:00",
+      "ReturnDateTime": "2014-08-26T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-21&returndate=2014-08-26"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-08-22T00:00:00",
+      "ReturnDateTime": "2014-08-27T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-22&returndate=2014-08-27"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-08-23T00:00:00",
+      "ReturnDateTime": "2014-08-28T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-23&returndate=2014-08-28"
+        }
+      ]
+    },
+    {
+      "LowestFare": 406,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 406,
+      "DepartureDateTime": "2014-08-24T00:00:00",
+      "ReturnDateTime": "2014-08-29T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-24&returndate=2014-08-29"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-08-25T00:00:00",
+      "ReturnDateTime": "2014-08-30T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-25&returndate=2014-08-30"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-08-26T00:00:00",
+      "ReturnDateTime": "2014-08-31T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-26&returndate=2014-08-31"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-08-27T00:00:00",
+      "ReturnDateTime": "2014-09-01T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-27&returndate=2014-09-01"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-08-28T00:00:00",
+      "ReturnDateTime": "2014-09-02T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-28&returndate=2014-09-02"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-08-29T00:00:00",
+      "ReturnDateTime": "2014-09-03T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-29&returndate=2014-09-03"
+        }
+      ]
+    },
+    {
+      "LowestFare": 387,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-08-30T00:00:00",
+      "ReturnDateTime": "2014-09-04T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-30&returndate=2014-09-04"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-08-31T00:00:00",
+      "ReturnDateTime": "2014-09-05T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-08-31&returndate=2014-09-05"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-01T00:00:00",
+      "ReturnDateTime": "2014-09-06T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-01&returndate=2014-09-06"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-02T00:00:00",
+      "ReturnDateTime": "2014-09-07T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-02&returndate=2014-09-07"
+        }
+      ]
+    },
+    {
+      "LowestFare": 387,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-03T00:00:00",
+      "ReturnDateTime": "2014-09-08T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-03&returndate=2014-09-08"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-04T00:00:00",
+      "ReturnDateTime": "2014-09-09T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-04&returndate=2014-09-09"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-05T00:00:00",
+      "ReturnDateTime": "2014-09-10T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-05&returndate=2014-09-10"
+        }
+      ]
+    },
+    {
+      "LowestFare": 387,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-06T00:00:00",
+      "ReturnDateTime": "2014-09-11T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-06&returndate=2014-09-11"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-07T00:00:00",
+      "ReturnDateTime": "2014-09-12T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-07&returndate=2014-09-12"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-08T00:00:00",
+      "ReturnDateTime": "2014-09-13T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-08&returndate=2014-09-13"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-09T00:00:00",
+      "ReturnDateTime": "2014-09-14T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-09&returndate=2014-09-14"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-10T00:00:00",
+      "ReturnDateTime": "2014-09-15T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-10&returndate=2014-09-15"
+        }
+      ]
+    },
+    {
+      "LowestFare": 387,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-11T00:00:00",
+      "ReturnDateTime": "2014-09-16T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-11&returndate=2014-09-16"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-12T00:00:00",
+      "ReturnDateTime": "2014-09-17T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-12&returndate=2014-09-17"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-13T00:00:00",
+      "ReturnDateTime": "2014-09-18T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-13&returndate=2014-09-18"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-14T00:00:00",
+      "ReturnDateTime": "2014-09-19T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-14&returndate=2014-09-19"
+        }
+      ]
+    },
+    {
+      "LowestFare": 381.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 382,
+      "DepartureDateTime": "2014-09-15T00:00:00",
+      "ReturnDateTime": "2014-09-20T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-15&returndate=2014-09-20"
+        }
+      ]
+    },
+    {
+      "LowestFare": 381.5,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 382,
+      "DepartureDateTime": "2014-09-16T00:00:00",
+      "ReturnDateTime": "2014-09-21T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-16&returndate=2014-09-21"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-17T00:00:00",
+      "ReturnDateTime": "2014-09-22T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-17&returndate=2014-09-22"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-18T00:00:00",
+      "ReturnDateTime": "2014-09-23T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-18&returndate=2014-09-23"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-19T00:00:00",
+      "ReturnDateTime": "2014-09-24T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-19&returndate=2014-09-24"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-20T00:00:00",
+      "ReturnDateTime": "2014-09-25T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-20&returndate=2014-09-25"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-21T00:00:00",
+      "ReturnDateTime": "2014-09-26T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-21&returndate=2014-09-26"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-22T00:00:00",
+      "ReturnDateTime": "2014-09-27T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-22&returndate=2014-09-27"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-23T00:00:00",
+      "ReturnDateTime": "2014-09-28T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-23&returndate=2014-09-28"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-24T00:00:00",
+      "ReturnDateTime": "2014-09-29T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-24&returndate=2014-09-29"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-25T00:00:00",
+      "ReturnDateTime": "2014-09-30T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-25&returndate=2014-09-30"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-26T00:00:00",
+      "ReturnDateTime": "2014-10-01T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-26&returndate=2014-10-01"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-27T00:00:00",
+      "ReturnDateTime": "2014-10-02T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-27&returndate=2014-10-02"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-28T00:00:00",
+      "ReturnDateTime": "2014-10-03T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-28&returndate=2014-10-03"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-29T00:00:00",
+      "ReturnDateTime": "2014-10-04T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-29&returndate=2014-10-04"
+        }
+      ]
+    },
+    {
+      "LowestFare": 387,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-09-30T00:00:00",
+      "ReturnDateTime": "2014-10-05T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-09-30&returndate=2014-10-05"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-01T00:00:00",
+      "ReturnDateTime": "2014-10-06T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-01&returndate=2014-10-06"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-02T00:00:00",
+      "ReturnDateTime": "2014-10-07T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-02&returndate=2014-10-07"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-03T00:00:00",
+      "ReturnDateTime": "2014-10-08T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-03&returndate=2014-10-08"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-04T00:00:00",
+      "ReturnDateTime": "2014-10-09T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-04&returndate=2014-10-09"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-05T00:00:00",
+      "ReturnDateTime": "2014-10-10T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-05&returndate=2014-10-10"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-06T00:00:00",
+      "ReturnDateTime": "2014-10-11T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-06&returndate=2014-10-11"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-07T00:00:00",
+      "ReturnDateTime": "2014-10-12T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-07&returndate=2014-10-12"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-08T00:00:00",
+      "ReturnDateTime": "2014-10-13T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-08&returndate=2014-10-13"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-09T00:00:00",
+      "ReturnDateTime": "2014-10-14T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-09&returndate=2014-10-14"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-10T00:00:00",
+      "ReturnDateTime": "2014-10-15T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-10&returndate=2014-10-15"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-11T00:00:00",
+      "ReturnDateTime": "2014-10-16T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-11&returndate=2014-10-16"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-12T00:00:00",
+      "ReturnDateTime": "2014-10-17T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-12&returndate=2014-10-17"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-13T00:00:00",
+      "ReturnDateTime": "2014-10-18T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-13&returndate=2014-10-18"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-14T00:00:00",
+      "ReturnDateTime": "2014-10-19T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-14&returndate=2014-10-19"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-15T00:00:00",
+      "ReturnDateTime": "2014-10-20T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-15&returndate=2014-10-20"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-16T00:00:00",
+      "ReturnDateTime": "2014-10-21T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-16&returndate=2014-10-21"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-17T00:00:00",
+      "ReturnDateTime": "2014-10-22T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-17&returndate=2014-10-22"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-18T00:00:00",
+      "ReturnDateTime": "2014-10-23T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-18&returndate=2014-10-23"
+        }
+      ]
+    },
+    {
+      "LowestFare": 388,
+      "CurrencyCode": "USD",
+      "LowestNonStopFare": 388,
+      "DepartureDateTime": "2014-10-19T00:00:00",
+      "ReturnDateTime": "2014-10-24T00:00:00",
+      "Links": [
+        {
+          "rel": "shop",
+          "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-19&returndate=2014-10-24"
+        }
+      ]
+    }
+  ],
+  "Links": [
+    {
+      "rel": "self",
+      "href": "https://api.test.sabre.com/v1/shop/flights/fares?origin=JFK&destination=LAX&lengthofstay=5"
+    },
+    {
+      "rel": "linkTemplate",
+      "href": "https://api.test.sabre.com/v1/shop/flights/fares?origin=<origin>&destination=<destination>&lengthofstay=<lengthofstay>&departuredate=<departuredate>&minfare=<minfare>&maxfare=<maxfare>"
+    }
+  ]
+}

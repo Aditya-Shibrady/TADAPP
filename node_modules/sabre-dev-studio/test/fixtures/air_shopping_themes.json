@@ -1,0 +1,113 @@
+{
+  "Themes": [
+    {
+      "Theme": "BEACH",
+      "Links": [
+        {
+          "rel": "destinations",
+          "href": "https://api.test.sabre.com/v1/lists/supported/shop/themes/BEACH"
+        }
+      ]
+    },
+    {
+      "Theme": "DISNEY",
+      "Links": [
+        {
+          "rel": "destinations",
+          "href": "https://api.test.sabre.com/v1/lists/supported/shop/themes/DISNEY"
+        }
+      ]
+    },
+    {
+      "Theme": "GAMBLING",
+      "Links": [
+        {
+          "rel": "destinations",
+          "href": "https://api.test.sabre.com/v1/lists/supported/shop/themes/GAMBLING"
+        }
+      ]
+    },
+    {
+      "Theme": "HISTORIC",
+      "Links": [
+        {
+          "rel": "destinations",
+          "href": "https://api.test.sabre.com/v1/lists/supported/shop/themes/HISTORIC"
+        }
+      ]
+    },
+    {
+      "Theme": "MOUNTAINS",
+      "Links": [
+        {
+          "rel": "destinations",
+          "href": "https://api.test.sabre.com/v1/lists/supported/shop/themes/MOUNTAINS"
+        }
+      ]
+    },
+    {
+      "Theme": "NATIONAL-PARKS",
+      "Links": [
+        {
+          "rel": "destinations",
+          "href": "https://api.test.sabre.com/v1/lists/supported/shop/themes/NATIONAL-PARKS"
+        }
+      ]
+    },
+    {
+      "Theme": "OUTDOORS",
+      "Links": [
+        {
+          "rel": "destinations",
+          "href": "https://api.test.sabre.com/v1/lists/supported/shop/themes/OUTDOORS"
+        }
+      ]
+    },
+    {
+      "Theme": "ROMANTIC",
+      "Links": [
+        {
+          "rel": "destinations",
+          "href": "https://api.test.sabre.com/v1/lists/supported/shop/themes/ROMANTIC"
+        }
+      ]
+    },
+    {
+      "Theme": "SHOPPING",
+      "Links": [
+        {
+          "rel": "destinations",
+          "href": "https://api.test.sabre.com/v1/lists/supported/shop/themes/SHOPPING"
+        }
+      ]
+    },
+    {
+      "Theme": "SKIING",
+      "Links": [
+        {
+          "rel": "destinations",
+          "href": "https://api.test.sabre.com/v1/lists/supported/shop/themes/SKIING"
+        }
+      ]
+    },
+    {
+      "Theme": "THEME-PARK",
+      "Links": [
+        {
+          "rel": "destinations",
+          "href": "https://api.test.sabre.com/v1/lists/supported/shop/themes/THEME-PARK"
+        }
+      ]
+    }
+  ],
+  "Links": [
+    {
+      "rel": "self",
+      "href": "https://api.test.sabre.com/v1/lists/supported/shop/themes"
+    },
+    {
+      "rel": "linkTemplate",
+      "href": "https://api.test.sabre.com/v1/lists/supported/shop/themes"
+    }
+  ]
+}

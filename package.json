@@ -1,0 +1,17 @@
+{
+  "name": "playapp",
+  "version": "1.0.0",
+  "description": "Node Web app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aditya Shibrady",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "ejs": "^2.3.3",
+    "express": "^4.13.1",
+    "mongodb": "1.4.34"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "OriginLocation": "JFK",
+  "DestinationLocation": "LAX",
+  "DepartureDateTime": "2014-10-01T00:00:00",
+  "ReturnDateTime": "2014-10-05T00:00:00",
+  "Forecast": {
+    "HighestPredictedFare": 9999,
+    "CurrencyCode": "USD",
+    "LowestPredictedFare": 0
+  },
+  "Recommendation": "unknown",
+  "LowestFare": 387.0,
+  "CurrencyCode": "USD",
+  "Links": [
+    {
+      "rel": "self",
+      "href": "https://api.test.sabre.com/v1/forecast/flights/fares?origin=JFK&destination=LAX&departuredate=2014-10-01&returndate=2014-10-05"
+    },
+    {
+      "rel": "linkTemplate",
+      "href": "https://api.test.sabre.com/v1/forecast/flights/fares?origin=<origin>&destination=<destination>&departuredate=<departuredate>&returndate=<returndate>"
+    },
+    {
+      "rel": "shop",
+      "href": "https://api.test.sabre.com/v1/shop/flights?origin=JFK&destination=LAX&departuredate=2014-10-01&returndate=2014-10-05"
+    }
+  ]
+}
