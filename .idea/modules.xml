@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/TADAPP.iml" filepath="$PROJECT_DIR$/.idea/TADAPP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../Node/TADAPP/.idea/TADAPP.iml" filepath="$PROJECT_DIR$/../../Node/TADAPP/.idea/TADAPP.iml" />
     </modules>
   </component>
 </project>
