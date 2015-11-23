@@ -1,0 +1,60 @@
+<div>
+
+
+    <div style="text-align:center; font-family: Helvetica; color: #e50000;"><h4> Check out Live Streaming Data !</h4></div>
+    <br>
+    <br>
+    <!--{{emailID}}-->
+    <div style="text-align: center;">
+
+                <button id="liveb" class="live-button" ng-click="scanLive()" >Load Tweets</button>
+
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+    <!--<center>-->
+        <!--{{resultsy.text}}<br>-->
+    <!--</center>-->
+<center>
+
+        <table border="1" cellpadding="10">
+            <tbody>
+            <tr>
+                <th>Stream</th>
+                <th>User Name</th>
+                <th>Tweet</th>
+            </tr>
+
+            <tr ng-repeat="res in resultsy">
+                <!--<td>-->
+                    <!--<a href={{res.url}}>{{res.type}}</a>-->
+                <!--</td>-->
+                <td>
+                    {{res.created_at}}
+                </td>
+                <td>
+                    {{res.user.screen_name}}
+                </td>
+                <td>
+                    {{res.text}}
+                </td>
+
+
+                <!--<td>-->
+                <!--{{res.id}}-->
+                <!--</td>-->
+                <!--<td>-->
+                <!--<a href={{res.url}}>Click</a>-->
+                <!--</td>-->
+            </tr>
+            </tbody>
+        </table>
+        <br>
+
+</center>
+
+
+</div>

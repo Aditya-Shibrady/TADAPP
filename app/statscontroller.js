@@ -2,9 +2,7 @@
  * Created by AdityaShibrady on 10/28/15.
  */
 (function (angular) {
-
     var module =  angular.module("playApp");
-
     module.controller("statsController", [
         "$http",
         "$scope",
@@ -20,8 +18,5 @@
                         console.log("error", data);
                     });
             };
-
-
         }]);
-
 })(angular);

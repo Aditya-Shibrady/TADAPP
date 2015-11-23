@@ -12,10 +12,6 @@
             "$routeProvider",
             function ($routeProvider) {
                 $routeProvider
-                    .when("/home", {
-                        templateUrl: "home",
-                        controller:"homeController"
-                    })
                     .when("/search", {
                         templateUrl: "search",
                         controller:"searchController"
@@ -23,6 +19,10 @@
                     .when("/dest", {
                         templateUrl: "Destination",
                         controller:"destController"
+                    })
+                    .when("/stream", {
+                        templateUrl: "stream",
+                        controller:"streamController"
                     })
                     .otherwise("/");
             }
