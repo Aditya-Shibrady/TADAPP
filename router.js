@@ -19,5 +19,9 @@ module.exports = function(app){
         console.log("Loading stream");
         res.render("stream.html");
     });
+    app.get("/customers", function(req, res){
+        console.log("Loading Customers");
+        res.render("customers.html");
+    });
 
 };

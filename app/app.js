@@ -24,6 +24,10 @@
                         templateUrl: "stream",
                         controller:"streamController"
                     })
+                    .when("/customers", {
+                        templateUrl: "customers",
+                        controller:"custController"
+                    })
                     .otherwise("/");
             }
         ]

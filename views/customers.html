@@ -1,0 +1,38 @@
+<div>
+    <div style="text-align:center; font-family: Helvetica; color: #e50000;"><h4> CDH Customers Database</h4></div>
+    <br>
+    <br>
+    <div style="text-align: center;">
+        <button id="custb" class="cust-button" ng-click="scanCust()" >Load Customers!</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <center>
+        <table border="1" cellpadding="10">
+            <tbody>
+            <tr>
+                <th>Trillium ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email ID</th>
+            </tr>
+            <tr ng-repeat="res in resultsc">
+                <td>
+                    {{res.TRILLIUM_ID}}
+                </td>
+                <td>
+                    {{res.FIRST_NAME}}
+                </td>
+                <td>
+                    {{res.LAST_NAME}}
+                </td>
+                <td>
+                    {{res.EMAIL}}
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <br>
+    </center>
+</div>
