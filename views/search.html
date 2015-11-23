@@ -32,6 +32,12 @@
         <br>
         <!--<div1 id="displaytext">-->
 
+    <script>
+//        if (results.status!=200){
+            console.log("test");
+//        }
+    </script>
+
         <center>
             {{results.demographics.gender}}<br><br>
             {{results.demographics.locationDeduced.deducedLocation}}<br>
@@ -43,20 +49,20 @@
             <tbody>
             <tr>
             <th>Social Media</th>
-            <th>ID</th>
-            <th>URL</th>
+            <!--<th>ID</th>-->
+            <!--<th>URL</th>-->
             </tr>
 
                 <tr data-ng-repeat="res in results.socialProfiles">
                     <td>
-                        {{res.type}}
+                        <a href={{res.url}}>{{res.type}}</a>
                     </td>
-                    <td>
-                        {{res.id}}
-                    </td>
-                    <td>
-                        {{res.url}}
-                    </td>
+                    <!--<td>-->
+                        <!--{{res.id}}-->
+                    <!--</td>-->
+                    <!--<td>-->
+                        <!--<a href={{res.url}}>Click</a>-->
+                    <!--</td>-->
                 </tr>
             </tbody>
         </table>

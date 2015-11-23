@@ -56,7 +56,7 @@
 
         <script type="text/javascript">
             document.getElementById("loady").onclick = function () {
-                location.href = "https://www.google.com/flights/#search;f=DFW,DAL;t=LAX;d=2015-11-05;r=2015-11-09";
+                location.href = "https://www.google.com/flights/#search;f=DFW,DAL;t=LAX;d=2015-12-21;r=2015-12-25";
             };
         </script>
         <br>
@@ -143,7 +143,7 @@
                 'FareForecastService2',
                 function ($resource) {
                     return $resource(
-                            'https://api.test.sabre.com/v1/forecast/flights/fares?origin=DFW&destination=LAX&departuredate=2015-11-05&returndate=2015-11-09',
+                            'https://api.test.sabre.com/v1/forecast/flights/fares?origin=DFW&destination=LAX&departuredate=2015-12-22&returndate=2015-12-30',
                             {},
                             {
                                 search: {
