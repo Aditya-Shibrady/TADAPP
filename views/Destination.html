@@ -8,17 +8,12 @@
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-resource.js"></script>
-<!--<script type="text/javascript">-->
 <hr>
 <div ng-controller="MyCtrl as ctrl">
     <div style="text-align:center; font-family: Helvetica; color: #e50000;"><h3> Suggested Event</h3></div>
     <div style="text-align:center; font-family: Helvetica; color: #3B3B4B;"><h4> Hackathon: Citrus Hack </h4></div>
-    <!--{{ctrl.neww}}-->
-
     <br>
-    <!--{{ctrl.sab}}-->
     <center>
-        <!--<div>{{ctrl.sab}}</div>-->
         <table border="1" cellpadding="10">
             <tbody>
             <tr>
@@ -64,9 +59,6 @@
     </center>
 
     <hr>
-<!--{{ctrl.sab}}-->
-    <!--<br>-->
-    <!--{{ctrl.neww}}-->
 
     <center>
         <div style="text-align:center; font-family: Helvetica; color: #e50000;"><h3> Suggested Event</h3></div>
@@ -117,10 +109,6 @@
     </center>
     <br>
     <hr>
-
-    <!--<script src="js/jquery-1.10.2.min.js"></script>-->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>-->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-resource.js"></script>-->
     <script type="text/javascript">
         var app = angular.module('playApp', ['ngResource']);
 
@@ -198,22 +186,8 @@
                     }).access_token;
 
         });
-
-        /*  app.controller('MyCtrl', function($scope, AuthService,
-         FareForecastService2) {
-         var ctrly = this;
-         authToken = AuthService.auth({}, "grant_type=client_credentials",
-         function (res) {
-         authToken = res.access_token;
-         console.log("Auth Token: " + authToken);
-         ctrly.neww = FareForecastService2.search();
-         }).access_token;
-
-         });*/
     </script>
-    <!--{{ctrl.neww}}-->
 </div>
-
 <div style="text-align:center; font-family: Helvetica; color: #e50000;"><h3> Suggested Configurations</h3></div>
 <div style="text-align:center; font-family: Helvetica; color: #3B3B4B;"><h4> Seat Preference </h4></div>
 <div style="text-align:center; font-family: Helvetica; color: #3B3B4B;"> Based on our customer insights we see you love
@@ -227,7 +201,6 @@
 </center>
 <br>
 <br>
-
 <div style="text-align:center; font-family: Helvetica; color: #3B3B4B;"><h4> Cuisine Preference </h4></div>
 <div style="text-align:center; font-family: Helvetica; color: #3B3B4B;"> Based on your twitter profile we see that you
     love vegan food. Vegan food is served in our flights too! Would you want to select this for your future bookings?
@@ -240,119 +213,6 @@
 </center>
 <br>
 <br>
-
-
-<!--<div ng-controller="MyAlt as alt">-->
-<!--<br>-->
-<!--<div style="text-align:center; font-family: Helvetica; color: #e50000;"><h3> Event 2</h3></div>-->
-<!--<div style="text-align:center; font-family: Helvetica; color: #3B3B4B;"><h4> Developer Conference: AT&T Developer Summit </h4></div>-->
-
-<!--<hr>-->
-<!--<center>-->
-<!--&lt;!&ndash;<div>{{ctrl.sab}}</div>&ndash;&gt;-->
-<!--{{alt.eve}}-->
-<!--<table border="1" cellpadding="10">-->
-<!--<tbody>-->
-<!--<tr>-->
-<!--<th>Origin</th>-->
-<!--<th>Destination</th>-->
-<!--<th>Departure</th>-->
-<!--<th>Return</th>-->
-<!--<th>Lowest Fare</th>-->
-<!--</tr>-->
-
-<!--<tr>-->
-<!--<td>-->
-<!--{{alt.eve.OriginLocation}}-->
-<!--</td>-->
-<!--<td>-->
-<!--{{alt.eve.DestinationLocation}}-->
-<!--</td>-->
-<!--<td>-->
-<!--{{alt.eve.DepartureDateTime}}-->
-<!--</td>-->
-<!--<td>-->
-<!--{{alt.eve.ReturnDateTime}}-->
-<!--</td>-->
-<!--<td>-->
-<!--{{alt.eve.Forecast.LowestPredictedFare}}-->
-<!--</td>-->
-<!--</tr>-->
-<!--</tbody>-->
-<!--</table>-->
-<!--<br>-->
-<!--<button><a STYLE="text-decoration:none" STYLE="color:black" href="https://devsummit.att.com/">Details</a></button>-->
-<!--&nbsp-->
-<!--<button id="loadyr" class="suggest-button" >Book Now!</button>-->
-
-<!--<script type="text/javascript">-->
-<!--document.getElementById("loadyr").onclick = function () {-->
-<!--location.href = "https://www.google.com/flights/#search;f=DFW,DAL;t=LAS;d=2016-01-04;r=2016-01-06";-->
-<!--};-->
-<!--</script>-->
-<!--<br>-->
-<!--<br>-->
-<!--</center>-->
-
-<!--&lt;!&ndash;<script src="js/jquery-1.10.2.min.js"></script>&ndash;&gt;-->
-<!--&lt;!&ndash;<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>&ndash;&gt;-->
-<!--&lt;!&ndash;<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-resource.js"></script>&ndash;&gt;-->
-<!--<script type="text/javascript">-->
-<!--var app1 = angular.module('playApp', [ 'ngResourcer' ]);-->
-
-<!--app1.service('AuthService', function($resource) {-->
-<!--return $resource('https://api.test.sabre.com/v2/auth/token', {}, {-->
-<!--auth : {-->
-<!--method : 'POST',-->
-<!--headers : {-->
-<!--'Content-Type' : 'application/x-www-form-urlencoded',-->
-<!--'Authorization' : 'Basic '-->
-<!--+ btoa(btoa('V1:tdh1rk0cebc1wx6i:DEVCENTER:EXT') + ':'-->
-<!--+ btoa('SkomD9D3'))-->
-<!--},-->
-<!--isArray : false-->
-<!--}-->
-<!--});-->
-<!--});-->
-
-<!--app1-->
-<!--.service(-->
-<!--'FareForecastServ',-->
-<!--function($resource) {-->
-<!--return $resource(-->
-<!--'https://api.test.sabre.com/v1/forecast/flights/fares?origin=DFW&destination=LAX&departuredate=2015-11-05&returndate=2015-11-09',-->
-<!--{},-->
-<!--{-->
-<!--search : {-->
-<!--method : 'GET',-->
-<!--headers : {-->
-<!--'Content-Type' : 'application/json',-->
-<!--'Authorization' : getAuthorization-->
-<!--},-->
-<!--isArray : false-->
-<!--}-->
-<!--});-->
-<!--});-->
-
-
-<!--function getAuthorization() {-->
-<!--return 'bearer ' + authToken;-->
-<!--}-->
-
-<!--var authToken = '';-->
-
-<!--app1.controller('MyAlt', function($scoper, AuthService,-->
-<!--FareForecastServ) {-->
-<!--var alt = this;-->
-<!--authToken = AuthService.auth({}, "grant_type=client_credentials",-->
-<!--function(res) {-->
-<!--authToken = res.access_token;-->
-<!--console.log("Auth Token: " + authToken);-->
-<!--alt.eve = FareForecastServ.search();-->
-<!--}).access_token;-->
-<!--});-->
-<!--</script>-->
-<!--</div>-->
 </div>
 </body>
 </html>

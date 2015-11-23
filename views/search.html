@@ -1,10 +1,7 @@
 <div>
-
-
     <div style="text-align:center; font-family: Helvetica; color: #e50000;"><h4> Scan a customers' online presence!</h4></div>
     <br>
     <br>
-    <!--{{emailID}}-->
     <div style="text-align: center;">
         <table>
             <tr>
@@ -18,62 +15,35 @@
             </tr>
             </table>
         </div>
-
-    <!--<script type="text/javascript">-->
-        <!--function myfunction()-->
-        <!--{-->
-            <!--var value=document.getElementById("displaytext").value;-->
-            <!--if(value!=null)-->
-            <!--{-->
-                <!--document.getElementById("displaytext").style.display= "block";-->
-            <!--}-->
-        <!--}-->
-    <!--</script>-->
         <br>
-        <!--<div1 id="displaytext">-->
-<center>
-
-    <div style="text-align:center; font-family: Helvetica; color: #696969;">  <h2>{{pink}} </h2> </div>
-</center>
-
-
+    <center>
+    <div style="text-align:center; font-family: Helvetica; color: #696969;"> <h2>{{pink}}</h2> </div>
+    </center>
         <center>
             {{results.demographics.gender}}<br><br>
             {{results.demographics.locationDeduced.deducedLocation}}<br>
         </center>
-
         <div style="text-align:center; font-family: Helvetica; color: #e50000;"><h5>Social Media Presence Data</h5></div>
-<center>
+        <center>
         <table border="1" cellpadding="10">
             <tbody>
             <tr>
             <th>Social Media</th>
-            <!--<th>ID</th>-->
-            <!--<th>URL</th>-->
             </tr>
-
-                <tr data-ng-repeat="res in results.socialProfiles">
-                    <td>
+            <tr data-ng-repeat="res in results.socialProfiles">
+                <td>
                         <a href={{res.url}}>{{res.type}}</a>
-                    </td>
-                    <!--<td>-->
-                        <!--{{res.id}}-->
-                    <!--</td>-->
-                    <!--<td>-->
-                        <!--<a href={{res.url}}>Click</a>-->
-                    <!--</td>-->
-                </tr>
+                </td>
+            </tr>
             </tbody>
         </table>
         <br>
     <div style="text-align:center; font-family: Helvetica; color: #e50000;"><h5>Customer's Interests</h5></div>
-
     <table border="1" cellpadding="10">
         <tbody>
         <tr>
             <th>Interests</th>
         </tr>
-
         <tr data-ng-repeat="resu in results.digitalFootprint.topics">
             <td>
                 {{resu.value}}
@@ -83,13 +53,11 @@
     </table>
     <br>
     <div style="text-align:center; font-family: Helvetica; color: #e50000;"><h5>Customer's Influence Score</h5></div>
-
     <table border="1" cellpadding="10">
         <tbody>
         <tr>
             <th>Score</th>
         </tr>
-
         <tr data-ng-repeat="resul in results.digitalFootprint.scores">
             <td>
                 {{resul.value}}
@@ -97,31 +65,6 @@
         </tr>
         </tbody>
     </table>
-
     <br>
-
-    <!--<button id="loadsugg" class="search-sugg">Load Suggestions</button>-->
-    <!--<script type="text/javascript">-->
-        <!--document.getElementById("loadsugg").onclick = function () {-->
-            <!--location.href = "http://localhost:3001/dest";-->
-        <!--};-->
-    <!--</script>-->
-
-
-    <!--{{sabre}}-->
-
 </center>
-        <!--</div1>-->
-    <!--<script>-->
-        <!--document.getElementById("searchb").onclick = function () {-->
-            <!--var value=document.getElementById("displaytext").value;-->
-            <!--if(value==null)-->
-            <!--{-->
-                <!--document.getElementById("displaytext").style.display= "block";-->
-            <!--}-->
-        <!--};-->
-    <!--</script>-->
-
-
-
 </div>
