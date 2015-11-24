@@ -4,8 +4,13 @@ module.exports = function(app){
 
     app.get("/", function(req, res){
         console.log("Loading root");
+        res.render("login.html");
+    });
+    app.get("/index", function(req, res){
+        console.log("Loading root");
         res.render("index.html");
     });
+
     app.get("/search", function(req, res){
         console.log("Loading search");
         res.render("search.html");
