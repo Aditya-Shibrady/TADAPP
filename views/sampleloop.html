@@ -18,6 +18,10 @@
         </tr>
     </table>
 </center>
+<br>
+<br>
+<br>
+<div id="dem"></div>
 
 
 <!--Number of Customers in sample set: <p id="demos"></p><br>-->
@@ -25,21 +29,27 @@
 <!--Percentage Match: <p id="demosr"></p> <br>-->
 
 <script>
-    var cars = ["aditya.shibrady@gmail.com", "anishbravo@gmail.com", "aditya.shibrady@utdallas.com"];
+    var cars = ["aditya.shibrady@gmail.com", "aditya.shibrady@utdallas.edu"];
     var text = "";
     var i;
     var count=0;
     for (i = 0; i < cars.length; i++) {
-        text += cars[i] + "<br>";
+
         var xhr = new XMLHttpRequest();
-        xhr.open("GET", "https://api.fullcontact.com/v2/person.json?apiKey=2c3b2ee771510bee&email="+cars[i], false);
+        xhr.open("GET", "https://api.fullcontact.com/v2/person.json?apiKey=489844436624e479&email="+cars[i], false);
         xhr.send();
         if (xhr.status!=200){
             count++;
         }
-        console.log(xhr.status);
+        text += xhr.responseText + "<br>";
+//        if (xhr.X-Rate-Limit-Remaining <= 3)
+//        {
+//            setTimeout(function(){ }, 5000);
+//        }
+        //console.log(xhr.status);
         //console.log(xhr.statusText);
-
+        //console.log(xhr.responseText);
+        //text += xhr.responseText + "<br>";
     }
     var tally = (cars.length) - (count);
     //document.getElementById("demo").innerHTML = text;
@@ -47,6 +57,7 @@
     document.getElementById("demosy").innerHTML = tally;
     var per = (tally/(cars.length))*100;
     document.getElementById("demosr").innerHTML = per;
+    document.getElementById("dem").innerHTML = text;
 
 
 </script>
